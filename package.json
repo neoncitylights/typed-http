@@ -1,36 +1,45 @@
 {
-	"name": "@{library-author}/{library-name}",
+	"name": "@neoncitylights/typed-http",
 	"version": "0.0.0",
-	"description": "{description}",
+	"description": "Provides strongly typed HTTP header names. Supports the Fetch API and the Node.js HTTP module with zero-runtime overhead.",
 	"license": "MIT",
 	"author": {
 		"name": "Samantha",
-		"url": "https://github.com/{library-author}"
+		"url": "https://github.com/neoncitylights"
 	},
 	"keywords": [
-		"progression",
-		"sequences"
+		"typescript",
+		"types",
+		"http",
+		"fetch",
+		"xhr",
+		"xmlHttpRequest",
+		"node"
 	],
-	"bugs": "https://github.com/{library-author}/{library-name}/issues",
+	"bugs": "https://github.com/neoncitylights/typed-http/issues",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/{library-author}/{library-name}.git"
+		"url": "git+https://github.com/neoncitylights/typed-http.git"
 	},
 	"funding": {
 		"type": "individual",
-		"url": "https://github.com/sponsors/{library-author}"
+		"url": "https://github.com/sponsors/neoncitylights"
 	},
 	"main": "./dist/bundle.js",
 	"types": "./dist/index.d.ts",
 	"files": [
-		"dist"
+		"src/index.ts",
+		"src/httpHeaders.ts",
+		"src/*.d.ts"
 	],
 	"directories": {
 		"test": "tests"
 	},
 	"scripts": {
-		"build": "webpack --color",
+		"generateHttpTypes": "ts-node ./build/generateHttpTypes.ts",
+		"build": "npm run generateHttpTypes && webpack --color",
 		"build:typedoc": "npx typedoc",
+		"build:typedoc-watch": "npm run build:typedoc -- --watch",
 		"build:all": "npm run build && npm run build:typedoc",
 		"clean": "rm -rf ./dist/ ./docs/typedocs/",
 		"deploy": "gh-pages -d ./docs/typedocs",
@@ -57,6 +66,7 @@
 		"typescript": "4.9.3",
 		"vitest": "^0.25.3",
 		"webpack": "5.75.0",
-		"webpack-cli": "5.0.0"
+		"webpack-cli": "5.0.0",
+		"word-wrap": "^1.2.3"
 	}
 }

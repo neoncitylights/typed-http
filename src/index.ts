@@ -1,5 +1,3 @@
-export function greet(name: string): string {
-	return `Hello, ${name}!`;
-}
-
-console.log(greet('World'));
+export * as headers from './httpHeaders';
+export * as methods from './httpMethods';
+export * as statusCodes from './httpStatusCodes';

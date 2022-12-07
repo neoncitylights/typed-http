@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+src/httpHeaders.ts        auto-generated=true
+src/httpMethods.ts        auto-generated=true
+src/httpStatusCodes.ts    auto-generated=true
