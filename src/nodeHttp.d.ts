@@ -1,6 +1,6 @@
 import { HttpHeader, HttpRequestHeader, HttpResponseHeader } from 'httpHeaders';
 
-module 'http' {
+declare module 'http' {
 	interface ServerResponse {
 		getHeader(name: HttpResponseHeader): string | number | string[] | undefined;
 		getHeaderNames(): Lowercase<HttpResponseHeader>[];
