@@ -31,7 +31,7 @@ export type Concept = {
 	 * an array of all known values for the concept
 	 */
 	values: ConceptValue[],
-}
+};
 
 export type ConceptValue = {
 	/**
@@ -52,7 +52,7 @@ export type ConceptValue = {
 	 * An array of all known descriptions of the value
 	 */
 	details: ConceptValueDetail[]
-}
+};
 
 export type ConceptValueDetail = {
 	/**
@@ -74,4 +74,4 @@ export type ConceptValueDetail = {
 	 * can be used when linking to the documentation
 	 */
 	'spec-name': string,
-}
+};
