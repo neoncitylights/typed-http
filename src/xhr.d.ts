@@ -2,7 +2,7 @@ import { HttpRequestHeader, HttpResponseHeader } from 'headers';
 import { HttpMethod } from 'httpMethods';
 
 declare global {
-	class XmlHttpRequest {
+	interface XmlHttpRequest {
 		getResponseHeader(header: HttpResponseHeader): string|null;
 		getAllResponseHeaders(): HttpResponseHeader[]; 
 		open(method: HttpMethod, url: string): void;

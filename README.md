@@ -36,6 +36,8 @@ npm install @neoncitylights/typed-http
 ### Type the Fetch API
 ```ts
 import '@neoncitylights/typed-http/fetch';
+
+let request = await fetch();
 ```
 
 ### Type `XmlHttpRequest`

@@ -1,7 +1,9 @@
 import { HttpHeader } from 'httpHeaders';
+import { HttpMethod } from 'httpMethods';
+import { HttpStatusCode } from 'httpStatusCodes';
 
 declare global {
-	class Headers {
+	interface Headers {
 		append(name: HttpHeader, value: string): void;
 		delete(name: HttpHeader): void;
 		get(name: HttpHeader): string | null;
@@ -11,5 +13,11 @@ declare global {
 		values(): IterableIterator<string>;
 	}
 
-	function fetch(input: RequestInfo, init?: RequestInit): Promise<Response>;
+	interface RequestInit {
+		method: HttpMethod;
+	}
+
+	interface Response {
+		readonly status: HttpStatusCode;
+	}
 }
