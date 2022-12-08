@@ -49,7 +49,9 @@ export type HttpHeaderAccept = 'Accept';
  * HTCPCP adds a new header field, "Accept-Additions".
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2324#section-2.2.2.1)
+ * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7168#section-2.2.1)
  * @see [Specification → RFC 2324](http://webconcepts.info/specs/IETF/RFC/2324)
+ * @see [Specification → RFC 7168](http://webconcepts.info/specs/IETF/RFC/7168)
  */
 export type HttpHeaderAcceptAdditions = 'Accept-Additions';
 
@@ -99,7 +101,9 @@ export type HttpHeaderAcceptDatetime = 'Accept-Datetime';
  * "identity" implies that no content codings were supported.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7694#section-3)
+ * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.3.4)
  * @see [Specification → RFC 7694](http://webconcepts.info/specs/IETF/RFC/7694)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderAcceptEncoding = 'Accept-Encoding';
 
@@ -394,7 +398,11 @@ export type HttpHeaderAuthenticationInfo = 'Authentication-Info';
  * requested.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7616#section-3.4)
+ * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5849#section-3.5.1)
+ * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7235#section-4.1)
  * @see [Specification → RFC 7616](http://webconcepts.info/specs/IETF/RFC/7616)
+ * @see [Specification → RFC 5849](http://webconcepts.info/specs/IETF/RFC/5849)
+ * @see [Specification → RFC 7235](http://webconcepts.info/specs/IETF/RFC/7235)
  */
 export type HttpHeaderAuthorization = 'Authorization';
 
@@ -683,7 +691,9 @@ export type HttpHeaderContentLocation = 'Content-Location';
  * partial body should be applied.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-combs-http-indeterminate-range#section-2.2)
+ * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7233#section-4.2)
  * @see [Specification → Internet Draft combs-http-indeterminate-range](http://webconcepts.info/specs/IETF/I-D/combs-http-indeterminate-range)
+ * @see [Specification → RFC 7233](http://webconcepts.info/specs/IETF/RFC/7233)
  */
 export type HttpHeaderContentRange = 'Content-Range';
 
@@ -693,7 +703,9 @@ export type HttpHeaderContentRange = 'Content-Range';
  * server to a client.
  *
  * @see [Documentation](http://www.w3.org/TR/CSP3/#csp-header)
+ * @see [Documentation](http://www.w3.org/TR/CSP2/#content-security-policy-header-field)
  * @see [Specification → W3C TR http://www.w3.org/TR/CSP3](http://webconcepts.info/specs/W3C/TR/CSP3)
+ * @see [Specification → W3C TR http://www.w3.org/TR/CSP2](http://webconcepts.info/specs/W3C/TR/CSP2)
  */
 export type HttpHeaderContentSecurityPolicy = 'Content-Security-Policy';
 
@@ -715,7 +727,9 @@ export type HttpHeaderContentSecurityPolicyPin = 'Content-Security-Policy-Pin';
  * monitoring (but not enforcing) their effects.
  *
  * @see [Documentation](http://www.w3.org/TR/CSP3/#cspro-header)
+ * @see [Documentation](http://www.w3.org/TR/CSP2/#content-security-policy-report-only-header-field)
  * @see [Specification → W3C TR http://www.w3.org/TR/CSP3](http://webconcepts.info/specs/W3C/TR/CSP3)
+ * @see [Specification → W3C TR http://www.w3.org/TR/CSP2](http://webconcepts.info/specs/W3C/TR/CSP2)
  */
 export type HttpHeaderContentSecurityPolicyReportOnly = 'Content-Security-Policy-Report-Only';
 
@@ -797,7 +811,9 @@ export type HttpHeaderContentWarning = 'Content-Warning';
  * the Cookie header.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis#section-4.2)
+ * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6265#section-4.2)
  * @see [Specification → Internet Draft ietf-httpbis-rfc6265bis](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis)
+ * @see [Specification → RFC 6265](http://webconcepts.info/specs/IETF/RFC/6265)
  */
 export type HttpHeaderCookie = 'Cookie';
 
@@ -2138,7 +2154,9 @@ export type HttpHeaderServiceWorkerAllowed = 'Service-Worker-Allowed';
  * from the server to the user agent.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis#section-4.1)
+ * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6265#section-4.1)
  * @see [Specification → Internet Draft ietf-httpbis-rfc6265bis](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis)
+ * @see [Specification → RFC 6265](http://webconcepts.info/specs/IETF/RFC/6265)
  */
 export type HttpHeaderSetCookie = 'Set-Cookie';
 
@@ -2511,7 +2529,9 @@ export type HttpHeaderVia = 'Via';
  * above.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7616#section-3.3)
+ * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7235#section-4.4)
  * @see [Specification → RFC 7616](http://webconcepts.info/specs/IETF/RFC/7616)
+ * @see [Specification → RFC 7235](http://webconcepts.info/specs/IETF/RFC/7235)
  */
 export type HttpHeaderWWWAuthenticate = 'WWW-Authenticate';
 

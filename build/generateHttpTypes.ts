@@ -51,12 +51,20 @@ function makeFullDocBlock(conceptValue: ConceptValue): string {
 	const description = wordWrap(conceptValue.details[0].description, { width: 60, indent: '' });
 	const lines = description.split('\n');
 
+	const docLinks: string[] = [];
+	const specLinks: string[] = [];
+
+	for(const detail of conceptValue.details) {
+		docLinks.push(makeDocSeeTag('Documentation', detail.documentation));
+		specLinks.push(makeDocSeeTag(`Specification → ${detail['spec-name']}`,
+			detail.specification));
+	}
+
 	const docBlock = makeDocBlock([
 		...lines.map((line) => line.trim()),
 		'',
-		makeDocSeeTag('Documentation', conceptValue.details[0].documentation),
-		makeDocSeeTag(`Specification → ${conceptValue.details[0]['spec-name']}`,
-			conceptValue.details[0].specification),
+		...docLinks,
+		...specLinks,
 	]);
 
 	return docBlock;
