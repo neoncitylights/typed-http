@@ -2,6 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![GitHub deployments](https://img.shields.io/github/deployments/neoncitylights/typed-http/github-pages?label=deploy)](https://github.com/neoncitylights/typed-http/deployments/activity_log?environment=github-pages)
 [![Node.js workflow](https://github.com/neoncitylights/typed-http/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/typed-http/actions/workflows/main.yml)
+[![npm (scoped)](https://img.shields.io/npm/v/@neoncitylights/typed-http)](https://www.npmjs.com/package/@neoncitylights/typed-http)
 
 A TypeScript package that provides strongly typed HTTP header names. Supports the Fetch API, `XmlHttpRequest`, and the Node.js HTTP module with zero-runtime overhead.
 
