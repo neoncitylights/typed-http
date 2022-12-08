@@ -215,8 +215,8 @@ export type HttpHeaderAcceptRanges = 'Accept-Ranges';
  * preflight request it indicates that the actual request can
  * include user credentials.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#access-control-allow-credentials-response-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-access-control-allow-credentials)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderAccessControlAllowCredentials = 'Access-Control-Allow-Credentials';
 
@@ -225,8 +225,8 @@ export type HttpHeaderAccessControlAllowCredentials = 'Access-Control-Allow-Cred
  * of the response to a preflight request, which header field
  * names can be used during the actual request.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#access-control-allow-headers-response-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-access-control-allow-headers)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderAccessControlAllowHeaders = 'Access-Control-Allow-Headers';
 
@@ -235,8 +235,8 @@ export type HttpHeaderAccessControlAllowHeaders = 'Access-Control-Allow-Headers'
  * of the response to a preflight request, which methods can be
  * used during the actual request.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#access-control-allow-methods-response-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-access-control-allow-methods)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderAccessControlAllowMethods = 'Access-Control-Allow-Methods';
 
@@ -245,8 +245,8 @@ export type HttpHeaderAccessControlAllowMethods = 'Access-Control-Allow-Methods'
  * resource can be shared based by returning the value of the
  * Origin request header, "*", or "null" in the response.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#access-control-allow-origin-response-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-access-control-allow-origin)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderAccessControlAllowOrigin = 'Access-Control-Allow-Origin';
 
@@ -255,8 +255,8 @@ export type HttpHeaderAccessControlAllowOrigin = 'Access-Control-Allow-Origin';
  * headers are safe to expose to the API of a CORS API
  * specification.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#access-control-expose-headers-response-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-access-control-expose-headers)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderAccessControlExposeHeaders = 'Access-Control-Expose-Headers';
 
@@ -265,8 +265,8 @@ export type HttpHeaderAccessControlExposeHeaders = 'Access-Control-Expose-Header
  * results of a preflight request can be cached in a preflight
  * result cache.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#access-control-max-age-response-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-access-control-max-age)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderAccessControlMaxAge = 'Access-Control-Max-Age';
 
@@ -275,8 +275,8 @@ export type HttpHeaderAccessControlMaxAge = 'Access-Control-Max-Age';
  * headers will be used in the actual request as part of the
  * preflight request.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#access-control-request-headers-request-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-access-control-request-headers)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderAccessControlRequestHeaders = 'Access-Control-Request-Headers';
 
@@ -285,8 +285,8 @@ export type HttpHeaderAccessControlRequestHeaders = 'Access-Control-Request-Head
  * method will be used in the actual request as part of the
  * preflight request.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#access-control-request-method-request-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-access-control-request-method)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderAccessControlRequestMethod = 'Access-Control-Request-Method';
 
@@ -1473,8 +1473,8 @@ export type HttpHeaderOrderingType = 'Ordering-Type';
  * The Origin header indicates where the cross-origin request
  * or preflight request originates from.
  *
- * @see [Documentation](http://www.w3.org/TR/cors/#origin-request-header)
- * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-origin)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
  */
 export type HttpHeaderOrigin = 'Origin';
 

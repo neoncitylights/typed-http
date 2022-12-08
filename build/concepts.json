@@ -860,9 +860,9 @@
 				"details":[
 					{
 						"description":"The Access-Control-Allow-Credentials header indicates whether the response to request can be exposed when the omit credentials flag is unset. When part of the response to a preflight request it indicates that the actual request can include user credentials.",
-						"documentation":"http://www.w3.org/TR/cors/#access-control-allow-credentials-response-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-access-control-allow-credentials",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
@@ -873,9 +873,9 @@
 				"details":[
 					{
 						"description":"The Access-Control-Allow-Headers header indicates, as part of the response to a preflight request, which header field names can be used during the actual request.",
-						"documentation":"http://www.w3.org/TR/cors/#access-control-allow-headers-response-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-access-control-allow-headers",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
@@ -886,9 +886,9 @@
 				"details":[
 					{
 						"description":"The Access-Control-Allow-Methods header indicates, as part of the response to a preflight request, which methods can be used during the actual request.",
-						"documentation":"http://www.w3.org/TR/cors/#access-control-allow-methods-response-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-access-control-allow-methods",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
@@ -899,9 +899,9 @@
 				"details":[
 					{
 						"description":"The Access-Control-Allow-Origin header indicates whether a resource can be shared based by returning the value of the Origin request header, \"*\", or \"null\" in the response.",
-						"documentation":"http://www.w3.org/TR/cors/#access-control-allow-origin-response-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-access-control-allow-origin",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
@@ -912,9 +912,9 @@
 				"details":[
 					{
 						"description":"The Access-Control-Expose-Headers header indicates which headers are safe to expose to the API of a CORS API specification.",
-						"documentation":"http://www.w3.org/TR/cors/#access-control-expose-headers-response-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-access-control-expose-headers",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
@@ -925,9 +925,9 @@
 				"details":[
 					{
 						"description":"The Access-Control-Max-Age header indicates how long the results of a preflight request can be cached in a preflight result cache.",
-						"documentation":"http://www.w3.org/TR/cors/#access-control-max-age-response-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-access-control-max-age",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
@@ -938,9 +938,9 @@
 				"details":[
 					{
 						"description":"The Access-Control-Request-Headers header indicates which headers will be used in the actual request as part of the preflight request.",
-						"documentation":"http://www.w3.org/TR/cors/#access-control-request-headers-request-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-access-control-request-headers",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
@@ -951,9 +951,9 @@
 				"details":[
 					{
 						"description":"The Access-Control-Request-Method header indicates which method will be used in the actual request as part of the preflight request.",
-						"documentation":"http://www.w3.org/TR/cors/#access-control-request-method-request-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-access-control-request-method",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
@@ -2300,9 +2300,9 @@
 				"details":[
 					{
 						"description":"The Origin header indicates where the cross-origin request or preflight request originates from.",
-						"documentation":"http://www.w3.org/TR/cors/#origin-request-header",
-						"specification":"http://webconcepts.info/specs/W3C/TR/cors",
-						"spec-name":"W3C TR http://www.w3.org/TR/cors"
+						"documentation":"https://fetch.spec.whatwg.org/#http-origin",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},
