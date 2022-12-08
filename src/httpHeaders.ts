@@ -828,6 +828,27 @@ export type HttpHeaderCookie = 'Cookie';
 export type HttpHeaderCookie2 = 'Cookie2';
 
 /**
+ * The Cross-Origin-Embedder-Policy header allows controlling
+ * how cross-origin resources should load, based on a specific
+ * policy/set of permissions.
+ *
+ * @see [Documentation](https://html.spec.whatwg.org/#cross-origin-embedder-policy)
+ * @see [Specification → WHATWG HTML Standard](https://html.spec.whatwg.org/)
+ */
+export type HttpHeaderCrossOriginEmbedderPolicy = 'Cross-Origin-Embedder-Policy';
+
+/**
+ * A cross-origin opener policy value allows a document which
+ * is navigated to in a top-level browsing context to force the
+ * creation of a new top-level browsing context, and a
+ * corresponding group.
+ *
+ * @see [Documentation](https://html.spec.whatwg.org/#cross-origin-opener-policy)
+ * @see [Specification → WHATWG HTML Standard](https://html.spec.whatwg.org/)
+ */
+export type HttpHeaderCrossOriginOpenerPolicy = 'Cross-Origin-Opener-Policy';
+
+/**
  * The DASL response header indicates server support for query
  * grammars in the OPTIONS method. The value is a list of URIs
  * that indicate the types of supported grammars. Note that
@@ -1337,7 +1358,7 @@ export type HttpHeaderLockToken = 'Lock-Token';
  * ensuring full conformance (where possible) when exporting
  * HTTP messages to strict MIME environments.
  *
- * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#appendix-A.1)
+ * @see [Documentationundefined](https://datatracker.ietf.org/doc/html/rfc7231#appendix-A.1)
  * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderMIMEVersion = 'MIME-Version';
@@ -1546,6 +1567,15 @@ export type HttpHeaderPEP = 'PEP';
  * @see [Specification → W3C TR http://www.w3.org/TR/WD-http-pep](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
  */
 export type HttpHeaderPEPInfo = 'PEP-Info';
+
+/**
+ * The Permissions-Policy HTTP response header allows a site to
+ * control which features and APIs can be used in the browser.
+ *
+ * @see [Documentation](https://www.w3.org/TR/permissions-policy-1/#permissions-policy-http-header-field)
+ * @see [Specification → W3C TR https://www.w3.org/TR/permissions-policy-1/](https://www.w3.org/TR/permissions-policy-1/)
+ */
+export type HttpHeaderPermissionsPolicy = 'Permissions-Policy';
 
 /**
  * The POE HTTP header is a request-header field whose
@@ -1967,6 +1997,92 @@ export type HttpHeaderScheduleReply = 'Schedule-Reply';
 export type HttpHeaderScheduleTag = 'Schedule-Tag';
 
 /**
+ * The Sec-CH-UA-Arch request header field gives a server
+ * information about the architecture of the platform on which
+ * a given user agent is executing.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-arch)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUAArch = 'Sec-CH-UA-Arch';
+
+/**
+ * The Sec-CH-UA-Bitness request header field gives a server
+ * information about the bitness about the architecture of the
+ * platform on which a given user agent is executing.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-bitness)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUABitness = 'Sec-CH-UA-Bitness';
+
+/**
+ * The Sec-CH-UA-Full-Version request header field gives a
+ * server information about the full version of the user agent.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-full-version)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUAFullVersion = 'Sec-CH-UA-Full-Version';
+
+/**
+ * The Sec-CH-UA-Full-Version-List request header field gives a
+ * server information about the full version of the user agent.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-full-version-list)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUAFullVersionList = 'Sec-CH-UA-Full-Version-List';
+
+/**
+ * The Sec-CH-UA-Mobile request header field gives a server
+ * information about whether the user agent prefers a "mobile"
+ * experience.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-mobile)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUAMobile = 'Sec-CH-UA-Mobile';
+
+/**
+ * The Sec-CH-UA-Model request header field gives a server
+ * information about the model of the user agent.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-model)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUAModel = 'Sec-CH-UA-Model';
+
+/**
+ * The Sec-CH-UA-Platform request header field gives a server
+ * information about the platform of the user agent.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-platform)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUAPlatform = 'Sec-CH-UA-Platform';
+
+/**
+ * The Sec-CH-UA-Platform-Version request header field gives a
+ * server information about the platform version of the user
+ * agent.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-platform-version)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUAPlatformVersion = 'Sec-CH-UA-Platform-Version';
+
+/**
+ * The Sec-CH-UA-WoW64 request header field gives a server
+ * information about whether or not a user agent binary is
+ * running in 32-bit mode on 64-bit Windows.
+ *
+ * @see [Documentation](https://wicg.github.io/ua-client-hints/#sec-ch-ua-wow64)
+ * @see [Specification → WICG User-Agent Client Hints](http://webconcepts.info/specs/WICG/UA-CH)
+ */
+export type HttpHeaderSecCHUAWoW64 = 'Sec-CH-UA-WoW64';
+
+/**
  * The Sec-COWL HTTP request and response headers are used by
  * user agents and servers to convey label metadata to servers
  * and user agents, respectively.
@@ -2150,6 +2266,17 @@ export type HttpHeaderServiceWorker = 'Service-Worker';
 export type HttpHeaderServiceWorkerAllowed = 'Service-Worker-Allowed';
 
 /**
+ * An HTTP response to a navigation request can include the
+ * Service-Worker-Navigation-Preload header. It indicates that
+ * the user agent will preload the response for the navigation
+ * request.
+ *
+ * @see [Documentation](http://www.w3.org/TR/service-workers-1/#service-worker-navigation-preload-response)
+ * @see [Specification → W3C TR https://www.w3.org/TR/service-workers/](http://webconcepts.info/specs/W3C/TR/service-workers-1)
+ */
+export type HttpHeaderServiceWorkerNavigationPreload = 'Service-Worker-Navigation-Preload';
+
+/**
  * The Set-Cookie HTTP response header is used to send cookies
  * from the server to the user agent.
  *
@@ -2256,8 +2383,8 @@ export type HttpHeaderSubst = 'Subst';
 export type HttpHeaderSunset = 'Sunset';
 
 /**
- * The Surrogate-Capabilities request header allows surrogates
- * to advertise their capabilities with capability tokens.
+ * The Surrogate-Capability request header allows surrogates to
+ * advertise their capabilities with capability tokens.
  * Capability tokens indicate sets of operations (e.g.,
  * caching, processing) that a surrogate is willing to perform.
  * They follow the form of product tokens in HTTP.
@@ -2681,6 +2808,8 @@ export type HttpHeader =
 	| HttpHeaderContentWarning
 	| HttpHeaderCookie
 	| HttpHeaderCookie2
+	| HttpHeaderCrossOriginEmbedderPolicy
+	| HttpHeaderCrossOriginOpenerPolicy
 	| HttpHeaderDASL
 	| HttpHeaderDAV
 	| HttpHeaderDNT
@@ -2744,6 +2873,7 @@ export type HttpHeader =
 	| HttpHeaderP3P
 	| HttpHeaderPEP
 	| HttpHeaderPEPInfo
+	| HttpHeaderPermissionsPolicy
 	| HttpHeaderPOE
 	| HttpHeaderPOELinks
 	| HttpHeaderPosition
@@ -2779,6 +2909,15 @@ export type HttpHeader =
 	| HttpHeaderSafe
 	| HttpHeaderScheduleReply
 	| HttpHeaderScheduleTag
+	| HttpHeaderSecCHUAArch
+	| HttpHeaderSecCHUABitness
+	| HttpHeaderSecCHUAFullVersion
+	| HttpHeaderSecCHUAFullVersionList
+	| HttpHeaderSecCHUAMobile
+	| HttpHeaderSecCHUAModel
+	| HttpHeaderSecCHUAPlatform
+	| HttpHeaderSecCHUAPlatformVersion
+	| HttpHeaderSecCHUAWoW64
 	| HttpHeaderSecCOWL
 	| HttpHeaderSecFetchDest
 	| HttpHeaderSecFetchMode
@@ -2795,6 +2934,7 @@ export type HttpHeader =
 	| HttpHeaderServerTiming
 	| HttpHeaderServiceWorker
 	| HttpHeaderServiceWorkerAllowed
+	| HttpHeaderServiceWorkerNavigationPreload
 	| HttpHeaderSetCookie
 	| HttpHeaderSetCookie2
 	| HttpHeaderSignature
@@ -2856,6 +2996,15 @@ export type ForbiddenHttpRequestHeader =
 	| HttpHeaderProxyInstruction
 	| HttpHeaderProxyStatus
 	| HttpHeaderReferer
+	| HttpHeaderSecCHUAArch
+	| HttpHeaderSecCHUABitness
+	| HttpHeaderSecCHUAFullVersion
+	| HttpHeaderSecCHUAFullVersionList
+	| HttpHeaderSecCHUAMobile
+	| HttpHeaderSecCHUAModel
+	| HttpHeaderSecCHUAPlatform
+	| HttpHeaderSecCHUAPlatformVersion
+	| HttpHeaderSecCHUAWoW64
 	| HttpHeaderSecCOWL
 	| HttpHeaderSecFetchDest
 	| HttpHeaderSecFetchMode
