@@ -12,10 +12,12 @@ This package uses an open-source JSON dataset by [WebConcepts](https://webconcep
 
 ## Install
 ```
-npm install neoncitylights/typed-http
+npm install @neoncitylights/typed-http
 ```
 
 ## Documentation
+[Auto-generated API documentation is available.](https://neoncitylights.github.io/typed-http/)
+
 ### API Reference
  - `T`: <a href="#HttpHeader">#</a> headers.**HttpHeader** • [source](./src/httpHeaders.ts)
  - `T`: <a href="#HttpRequetHeader">#</a> headers.**HttpRequestHeader** • [source](./src/httpHeaders.ts)
@@ -34,16 +36,16 @@ npm install neoncitylights/typed-http
 ### Type the Fetch API
 ```ts
 import '@neoncitylights/typed-http/fetch';
-
-const xhr = new XMLHttpRequest();
-xhr.addEventListener('load', (e) => console.log(xhr.responseText));
-xhr.open('GET', 'https://www.google.com');
-xhr.send();
 ```
 
 ### Type `XmlHttpRequest`
 ```ts
 import '@neoncitylights/typed-http/xhr';
+
+const xhr = new XMLHttpRequest();
+xhr.addEventListener('load', (e) => console.log(xhr.responseText));
+xhr.open('GET', 'https://www.google.com');
+xhr.send();
 ```
 
 ### Type the Node.js HTTP module
