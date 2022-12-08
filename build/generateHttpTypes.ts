@@ -3,15 +3,16 @@ import {
 	Concept,
 	READ_FILE_PATH,
 	capitalize,
+	ConceptValue,
+	getHttpMethodAsCamelCase,
 	isForbiddenHttpRequestHeader,
 	makeCamelCase,
 	makeDocBlock,
 	makeDocSeeTag,
 	makeExcludeType,
+	makeStringType,
 	makeType,
 	makeUnionType,
-	makeStringType,
-	ConceptValue,
 } from '.';
 import wordWrap from 'word-wrap';
 
@@ -70,7 +71,7 @@ createRunGenerator(
 
 		// generate each individual HTTP method type
 		for(const conceptValue of httpMethodConcept.values) {
-			const httpMethodType = `HttpMethod${capitalize(makeCamelCase(conceptValue.value.toLowerCase()))}`;
+			const httpMethodType = `HttpMethod${getHttpMethodAsCamelCase(conceptValue.value)}`;
 			httpMethodTypes.push(httpMethodType);
 
 			const httpMethodName = conceptValue.value;

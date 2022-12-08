@@ -189,7 +189,7 @@ export type HttpMethodMerge = 'MERGE';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-13.5)
  * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
-export type HttpMethodMkactivity = 'MKACTIVITY';
+export type HttpMethodMkActivity = 'MKACTIVITY';
 
 /**
  * An HTTP request using the MKCALENDAR method creates a new
@@ -199,7 +199,7 @@ export type HttpMethodMkactivity = 'MKACTIVITY';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4791#section-5.3.1)
  * @see [Specification → RFC 4791](http://webconcepts.info/specs/IETF/RFC/4791)
  */
-export type HttpMethodMkcalendar = 'MKCALENDAR';
+export type HttpMethodMkCalendar = 'MKCALENDAR';
 
 /**
  * MKCOL creates a new collection resource at the location
@@ -215,7 +215,7 @@ export type HttpMethodMkcalendar = 'MKCALENDAR';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.3)
  * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
-export type HttpMethodMkcol = 'MKCOL';
+export type HttpMethodMkCol = 'MKCOL';
 
 /**
  * The MKREDIRECTREF method requests the creation of a redirect
@@ -224,7 +224,7 @@ export type HttpMethodMkcol = 'MKCOL';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4437#section-6)
  * @see [Specification → RFC 4437](http://webconcepts.info/specs/IETF/RFC/4437)
  */
-export type HttpMethodMkredirectref = 'MKREDIRECTREF';
+export type HttpMethodMkRedirectRef = 'MKREDIRECTREF';
 
 /**
  * A MKWORKSPACE request creates a new workspace resource. A
@@ -236,7 +236,7 @@ export type HttpMethodMkredirectref = 'MKREDIRECTREF';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-6.3)
  * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
-export type HttpMethodMkworkspace = 'MKWORKSPACE';
+export type HttpMethodMkWorkspace = 'MKWORKSPACE';
 
 /**
  * The MOVE operation on a non-collection resource is the
@@ -274,7 +274,7 @@ export type HttpMethodOptions = 'OPTIONS';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3648#section-7)
  * @see [Specification → RFC 3648](http://webconcepts.info/specs/IETF/RFC/3648)
  */
-export type HttpMethodOrderpatch = 'ORDERPATCH';
+export type HttpMethodOrderPatch = 'ORDERPATCH';
 
 /**
  * The PATCH method requests that a set of changes described in
@@ -321,7 +321,7 @@ export type HttpMethodPri = 'PRI';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.1)
  * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
-export type HttpMethodPropfind = 'PROPFIND';
+export type HttpMethodPropFind = 'PROPFIND';
 
 /**
  * The PROPPATCH method processes instructions specified in the
@@ -331,7 +331,7 @@ export type HttpMethodPropfind = 'PROPFIND';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.2)
  * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
-export type HttpMethodProppatch = 'PROPPATCH';
+export type HttpMethodPropPatch = 'PROPPATCH';
 
 /**
  * The PUT method requests that the state of the target
@@ -481,7 +481,7 @@ export type HttpMethodUpdate = 'UPDATE';
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4437#section-7)
  * @see [Specification → RFC 4437](http://webconcepts.info/specs/IETF/RFC/4437)
  */
-export type HttpMethodUpdateredirectref = 'UPDATEREDIRECTREF';
+export type HttpMethodUpdateRedirectRef = 'UPDATEREDIRECTREF';
 
 /**
  * A VERSION-CONTROL request can be used to create a
@@ -509,19 +509,19 @@ export type HttpMethod =
 	| HttpMethodLink
 	| HttpMethodLock
 	| HttpMethodMerge
-	| HttpMethodMkactivity
-	| HttpMethodMkcalendar
-	| HttpMethodMkcol
-	| HttpMethodMkredirectref
-	| HttpMethodMkworkspace
+	| HttpMethodMkActivity
+	| HttpMethodMkCalendar
+	| HttpMethodMkCol
+	| HttpMethodMkRedirectRef
+	| HttpMethodMkWorkspace
 	| HttpMethodMove
 	| HttpMethodOptions
-	| HttpMethodOrderpatch
+	| HttpMethodOrderPatch
 	| HttpMethodPatch
 	| HttpMethodPost
 	| HttpMethodPri
-	| HttpMethodPropfind
-	| HttpMethodProppatch
+	| HttpMethodPropFind
+	| HttpMethodPropPatch
 	| HttpMethodPut
 	| HttpMethodQuery
 	| HttpMethodRebind
@@ -533,5 +533,5 @@ export type HttpMethod =
 	| HttpMethodUnlink
 	| HttpMethodUnlock
 	| HttpMethodUpdate
-	| HttpMethodUpdateredirectref
+	| HttpMethodUpdateRedirectRef
 	| HttpMethodVersionControl;

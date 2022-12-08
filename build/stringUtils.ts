@@ -7,6 +7,21 @@ export function capitalize(str: string): string {
 	return str[0].toUpperCase() + str.slice(1);
 }
 
+export function getHttpMethodAsCamelCase(method: string): string {
+	switch(method) {
+		case 'MKACTIVITY': return 'MkActivity';
+		case 'MKCALENDAR': return 'MkCalendar';
+		case 'MKCOL': return 'MkCol';
+		case 'MKREDIRECTREF': return 'MkRedirectRef';
+		case 'MKWORKSPACE': return 'MkWorkspace';
+		case 'ORDERPATCH': return 'OrderPatch';
+		case 'PROPFIND': return 'PropFind';
+		case 'PROPPATCH': return 'PropPatch';
+		case 'UPDATEREDIRECTREF': return 'UpdateRedirectRef';
+		default: return capitalize(makeCamelCase(method.toLowerCase()));
+	}
+}
+
 export function isForbiddenHttpRequestHeader(header: string): boolean {
 	return header.startsWith('Proxy')
 		|| header.startsWith('Sec')
