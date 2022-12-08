@@ -19,6 +19,8 @@ npm install @neoncitylights/typed-http
 [Auto-generated API documentation is available.](https://neoncitylights.github.io/typed-http/)
 
 ### API Reference
+> **Note**: Specific HTTP headers, methods, and status codes are omitted from the API documentation for brevity. The full list of types is available in the source code.
+
  - `T`: <a href="#HttpHeader">#</a> headers.**HttpHeader** • [source](./src/httpHeaders.ts)
  - `T`: <a href="#HttpRequetHeader">#</a> headers.**HttpRequestHeader** • [source](./src/httpHeaders.ts)
  - `T`: <a href="#HttpResponseHeader">#</a> headers.**HttpResponseHeader** • [source](./src/httpHeaders.ts)
