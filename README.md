@@ -5,6 +5,11 @@
 
 A TypeScript package that provides strongly typed HTTP header names. Supports the Fetch API, `XmlHttpRequest`, and the Node.js HTTP module with zero-runtime overhead.
 
+This package uses an open-source JSON dataset by [WebConcepts](https://webconcepts.info/JSON-concepts) with slight modifications, available under [`concepts.json`](./build/concepts.json). The script to auto-generate the TypeScript files is available under [`generateHttpTypes.ts`](./build/generateHttpTypes.ts). The generated files are:
+ - [`httpHeaders.ts`](./src/httpHeaders.ts): 234 HTTP header types
+ - [`httpMethods.ts`](./src/httpMethods.ts): 40 HTTP methods
+ - [`httpStatusCodes.ts`](./src/httpStatusCodes.ts): 63 HTTP status codes
+
 ## Install
 ```
 npm install neoncitylights/typed-http
