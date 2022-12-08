@@ -53,7 +53,8 @@ function makeFullDocBlock(conceptValue: ConceptValue): string {
 		...lines.map((line) => line.trim()),
 		'',
 		makeDocSeeTag('Documentation', conceptValue.details[0].documentation),
-		makeDocSeeTag('Specification', conceptValue.details[0].specification),
+		makeDocSeeTag(`Specification → ${conceptValue.details[0]['spec-name']}`,
+			conceptValue.details[0].specification),
 	]);
 
 	return docBlock;

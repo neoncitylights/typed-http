@@ -14,7 +14,7 @@
  * more entity tags from prior responses for the request-URI.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3229#section-10.5.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3229)
+ * @see [Specification → RFC 3229](http://webconcepts.info/specs/IETF/RFC/3229)
  */
 export type HttpHeaderAIM = 'A-IM';
 
@@ -25,7 +25,7 @@ export type HttpHeaderAIM = 'A-IM';
  * protocols that might be used within the tunnel.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7639#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7639)
+ * @see [Specification → RFC 7639](http://webconcepts.info/specs/IETF/RFC/7639)
  */
 export type HttpHeaderALPN = 'ALPN';
 
@@ -37,7 +37,7 @@ export type HttpHeaderALPN = 'ALPN';
  * the case of a request for an in-line image.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderAccept = 'Accept';
 
@@ -49,7 +49,7 @@ export type HttpHeaderAccept = 'Accept';
  * HTCPCP adds a new header field, "Accept-Additions".
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2324#section-2.2.2.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2324)
+ * @see [Specification → RFC 2324](http://webconcepts.info/specs/IETF/RFC/2324)
  */
 export type HttpHeaderAcceptAdditions = 'Accept-Additions';
 
@@ -59,7 +59,7 @@ export type HttpHeaderAcceptAdditions = 'Accept-Additions';
  * server support for particular hints indicated in its value.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-client-hints#section-3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-hints)
+ * @see [Specification → Internet Draft ietf-httpbis-client-hints](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-hints)
  */
 export type HttpHeaderAcceptCH = 'Accept-CH';
 
@@ -72,7 +72,7 @@ export type HttpHeaderAcceptCH = 'Accept-CH';
  * capable of representing information in those charsets.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.3.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderAcceptCharset = 'Accept-Charset';
 
@@ -85,7 +85,7 @@ export type HttpHeaderAcceptCharset = 'Accept-Charset';
  * of the desired past state of the Original Resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7089#section-2.1.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7089)
+ * @see [Specification → RFC 7089](http://webconcepts.info/specs/IETF/RFC/7089)
  */
 export type HttpHeaderAcceptDatetime = 'Accept-Datetime';
 
@@ -99,7 +99,7 @@ export type HttpHeaderAcceptDatetime = 'Accept-Datetime';
  * "identity" implies that no content codings were supported.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7694#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7694)
+ * @see [Specification → RFC 7694](http://webconcepts.info/specs/IETF/RFC/7694)
  */
 export type HttpHeaderAcceptEncoding = 'Accept-Encoding';
 
@@ -111,7 +111,7 @@ export type HttpHeaderAcceptEncoding = 'Accept-Encoding';
  * variant selection algorithm.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2295#section-8.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2295)
+ * @see [Specification → RFC 2295](http://webconcepts.info/specs/IETF/RFC/2295)
  */
 export type HttpHeaderAcceptFeatures = 'Accept-Features';
 
@@ -121,7 +121,7 @@ export type HttpHeaderAcceptFeatures = 'Accept-Features';
  * requests for a resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-combs-http-indeterminate-range#section-2.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/combs-http-indeterminate-range)
+ * @see [Specification → Internet Draft combs-http-indeterminate-range](http://webconcepts.info/specs/IETF/I-D/combs-http-indeterminate-range)
  */
 export type HttpHeaderAcceptIndefiniteRanges = 'Accept-Indefinite-Ranges';
 
@@ -131,7 +131,7 @@ export type HttpHeaderAcceptIndefiniteRanges = 'Accept-Indefinite-Ranges';
  * preferred in the response.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.3.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderAcceptLanguage = 'Accept-Language';
 
@@ -145,7 +145,7 @@ export type HttpHeaderAcceptLanguage = 'Accept-Language';
  * is allowed on the resource identified by the Request-URI.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5789#section-3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/5789)
+ * @see [Specification → RFC 5789](http://webconcepts.info/specs/IETF/RFC/5789)
  */
 export type HttpHeaderAcceptPatch = 'Accept-Patch';
 
@@ -160,7 +160,7 @@ export type HttpHeaderAcceptPatch = 'Accept-Patch';
  * resource identified by the Request-URI.
  *
  * @see [Documentation](http://www.w3.org/TR/ldp/#header-accept-post)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/ldp)
+ * @see [Specification → W3C TR http://www.w3.org/TR/ldp](http://webconcepts.info/specs/W3C/TR/ldp)
  */
 export type HttpHeaderAcceptPost = 'Accept-Post';
 
@@ -172,7 +172,7 @@ export type HttpHeaderAcceptPost = 'Accept-Post';
  * (q-values) to indicate preferences.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-svensson-profiled-representations#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/svensson-profiled-representations)
+ * @see [Specification → Internet Draft svensson-profiled-representations](http://webconcepts.info/specs/IETF/I-D/svensson-profiled-representations)
  */
 export type HttpHeaderAcceptProfile = 'Accept-Profile';
 
@@ -184,7 +184,7 @@ export type HttpHeaderAcceptProfile = 'Accept-Profile';
  * the request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ruellan-http-accept-push-policy#section-3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ruellan-http-accept-push-policy)
+ * @see [Specification → Internet Draft ruellan-http-accept-push-policy](http://webconcepts.info/specs/IETF/I-D/ruellan-http-accept-push-policy)
  */
 export type HttpHeaderAcceptPushPolicy = 'Accept-Push-Policy';
 
@@ -195,7 +195,7 @@ export type HttpHeaderAcceptPushPolicy = 'Accept-Push-Policy';
  * be used.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-safe-method-w-body#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-safe-method-w-body)
+ * @see [Specification → Internet Draft ietf-httpbis-safe-method-w-body](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-safe-method-w-body)
  */
 export type HttpHeaderAcceptQuery = 'Accept-Query';
 
@@ -204,7 +204,7 @@ export type HttpHeaderAcceptQuery = 'Accept-Query';
  * that it supports range requests for the target resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7233#section-2.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7233)
+ * @see [Specification → RFC 7233](http://webconcepts.info/specs/IETF/RFC/7233)
  */
 export type HttpHeaderAcceptRanges = 'Accept-Ranges';
 
@@ -216,7 +216,7 @@ export type HttpHeaderAcceptRanges = 'Accept-Ranges';
  * include user credentials.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#access-control-allow-credentials-response-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderAccessControlAllowCredentials = 'Access-Control-Allow-Credentials';
 
@@ -226,7 +226,7 @@ export type HttpHeaderAccessControlAllowCredentials = 'Access-Control-Allow-Cred
  * names can be used during the actual request.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#access-control-allow-headers-response-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderAccessControlAllowHeaders = 'Access-Control-Allow-Headers';
 
@@ -236,7 +236,7 @@ export type HttpHeaderAccessControlAllowHeaders = 'Access-Control-Allow-Headers'
  * used during the actual request.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#access-control-allow-methods-response-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderAccessControlAllowMethods = 'Access-Control-Allow-Methods';
 
@@ -246,7 +246,7 @@ export type HttpHeaderAccessControlAllowMethods = 'Access-Control-Allow-Methods'
  * Origin request header, "*", or "null" in the response.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#access-control-allow-origin-response-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderAccessControlAllowOrigin = 'Access-Control-Allow-Origin';
 
@@ -256,7 +256,7 @@ export type HttpHeaderAccessControlAllowOrigin = 'Access-Control-Allow-Origin';
  * specification.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#access-control-expose-headers-response-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderAccessControlExposeHeaders = 'Access-Control-Expose-Headers';
 
@@ -266,7 +266,7 @@ export type HttpHeaderAccessControlExposeHeaders = 'Access-Control-Expose-Header
  * result cache.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#access-control-max-age-response-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderAccessControlMaxAge = 'Access-Control-Max-Age';
 
@@ -276,7 +276,7 @@ export type HttpHeaderAccessControlMaxAge = 'Access-Control-Max-Age';
  * preflight request.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#access-control-request-headers-request-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderAccessControlRequestHeaders = 'Access-Control-Request-Headers';
 
@@ -286,7 +286,7 @@ export type HttpHeaderAccessControlRequestHeaders = 'Access-Control-Request-Head
  * preflight request.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#access-control-request-method-request-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderAccessControlRequestMethod = 'Access-Control-Request-Method';
 
@@ -296,7 +296,7 @@ export type HttpHeaderAccessControlRequestMethod = 'Access-Control-Request-Metho
  * successfully validated at the origin server.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7234#section-5.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7234)
+ * @see [Specification → RFC 7234](http://webconcepts.info/specs/IETF/RFC/7234)
  */
 export type HttpHeaderAge = 'Age';
 
@@ -307,7 +307,7 @@ export type HttpHeaderAge = 'Age';
  * methods associated with the resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-7.4.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderAllow = 'Allow';
 
@@ -317,7 +317,7 @@ export type HttpHeaderAllow = 'Allow';
  * field to responses.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7838#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7838)
+ * @see [Specification → RFC 7838](http://webconcepts.info/specs/IETF/RFC/7838)
  */
 export type HttpHeaderAltSvc = 'Alt-Svc';
 
@@ -333,7 +333,7 @@ export type HttpHeaderAltSvc = 'Alt-Svc';
  * proven to be problematic.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7838#section-5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7838)
+ * @see [Specification → RFC 7838](http://webconcepts.info/specs/IETF/RFC/7838)
  */
 export type HttpHeaderAltUsed = 'Alt-Used';
 
@@ -348,7 +348,7 @@ export type HttpHeaderAltUsed = 'Alt-Used';
  * negotiation MAY also use Alternates headers.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2295#section-8.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2295)
+ * @see [Specification → RFC 2295](http://webconcepts.info/specs/IETF/RFC/2295)
  */
 export type HttpHeaderAlternates = 'Alternates';
 
@@ -359,7 +359,7 @@ export type HttpHeaderAlternates = 'Alternates';
  * resource itself, and a 3xx response MUST NOT be returned.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4437#section-12.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4437)
+ * @see [Specification → RFC 4437](http://webconcepts.info/specs/IETF/RFC/4437)
  */
 export type HttpHeaderApplyToRedirectRef = 'Apply-To-Redirect-Ref';
 
@@ -369,7 +369,7 @@ export type HttpHeaderApplyToRedirectRef = 'Apply-To-Redirect-Ref';
  * HTTP authentication protocol.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8053#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8053)
+ * @see [Specification → RFC 8053](http://webconcepts.info/specs/IETF/RFC/8053)
  */
 export type HttpHeaderAuthenticationControl = 'Authentication-Control';
 
@@ -381,7 +381,7 @@ export type HttpHeaderAuthenticationControl = 'Authentication-Control';
  * server (e.g., it can contain the server authentication).
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7615#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7615)
+ * @see [Specification → RFC 7615](http://webconcepts.info/specs/IETF/RFC/7615)
  */
 export type HttpHeaderAuthenticationInfo = 'Authentication-Info';
 
@@ -394,7 +394,7 @@ export type HttpHeaderAuthenticationInfo = 'Authentication-Info';
  * requested.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7616#section-3.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7616)
+ * @see [Specification → RFC 7616](http://webconcepts.info/specs/IETF/RFC/7616)
  */
 export type HttpHeaderAuthorization = 'Authorization';
 
@@ -404,7 +404,7 @@ export type HttpHeaderAuthorization = 'Authorization';
  * were fulfilled.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2774#section-4.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2774)
+ * @see [Specification → RFC 2774](http://webconcepts.info/specs/IETF/RFC/2774)
  */
 export type HttpHeaderCExt = 'C-Ext';
 
@@ -421,7 +421,7 @@ export type HttpHeaderCExt = 'C-Ext';
  * directives.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2774#section-4.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2774)
+ * @see [Specification → RFC 2774](http://webconcepts.info/specs/IETF/RFC/2774)
  */
 export type HttpHeaderCMan = 'C-Man';
 
@@ -442,7 +442,7 @@ export type HttpHeaderCMan = 'C-Man';
  * directives.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2774#section-4.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2774)
+ * @see [Specification → RFC 2774](http://webconcepts.info/specs/IETF/RFC/2774)
  */
 export type HttpHeaderCOpt = 'C-Opt';
 
@@ -453,7 +453,7 @@ export type HttpHeaderCOpt = 'C-Opt';
  * communicated by proxies over further connections.
  *
  * @see [Documentation](http://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743948)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
+ * @see [Specification → W3C TR http://www.w3.org/TR/WD-http-pep](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
  */
 export type HttpHeaderCPEP = 'C-PEP';
 
@@ -464,7 +464,7 @@ export type HttpHeaderCPEP = 'C-PEP';
  * proxies over further connections.
  *
  * @see [Documentation](http://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743954)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
+ * @see [Specification → W3C TR http://www.w3.org/TR/WD-http-pep](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
  */
 export type HttpHeaderCPEPInfo = 'C-PEP-Info';
 
@@ -478,7 +478,7 @@ export type HttpHeaderCPEPInfo = 'C-PEP-Info';
  * CDN).
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc9213#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/9213)
+ * @see [Specification → RFC 9213](http://webconcepts.info/specs/IETF/RFC/9213)
  */
 export type HttpHeaderCDNCacheControl = 'CDN-Cache-Control';
 
@@ -490,7 +490,7 @@ export type HttpHeaderCDNCacheControl = 'CDN-Cache-Control';
  * directive is to be given in the response.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7234#section-5.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7234)
+ * @see [Specification → RFC 7234](http://webconcepts.info/specs/IETF/RFC/7234)
  */
 export type HttpHeaderCacheControl = 'Cache-Control';
 
@@ -502,7 +502,7 @@ export type HttpHeaderCacheControl = 'Cache-Control';
  * value.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-drechsler-httpbis-improved-caching#section-2.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching)
+ * @see [Specification → Internet Draft drechsler-httpbis-improved-caching](http://webconcepts.info/specs/IETF/I-D/drechsler-httpbis-improved-caching)
  */
 export type HttpHeaderCacheNT = 'Cache-NT';
 
@@ -512,7 +512,7 @@ export type HttpHeaderCacheNT = 'Cache-NT';
  * request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-cache-header#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-cache-header)
+ * @see [Specification → Internet Draft ietf-httpbis-cache-header](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-cache-header)
  */
 export type HttpHeaderCacheStatus = 'Cache-Status';
 
@@ -524,7 +524,7 @@ export type HttpHeaderCacheStatus = 'Cache-Status';
  * or attachment-update.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-calext-caldav-attachments#section-5.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-calext-caldav-attachments)
+ * @see [Specification → Internet Draft ietf-calext-caldav-attachments](http://webconcepts.info/specs/IETF/I-D/ietf-calext-caldav-attachments)
  */
 export type HttpHeaderCalManagedID = 'Cal-Managed-ID';
 
@@ -534,7 +534,7 @@ export type HttpHeaderCalManagedID = 'Cal-Managed-ID';
  * a certain set of types.
  *
  * @see [Documentation](http://www.w3.org/TR/clear-site-data/#header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/clear-site-data)
+ * @see [Specification → W3C TR http://www.w3.org/TR/clear-site-data](http://webconcepts.info/specs/W3C/TR/clear-site-data)
  */
 export type HttpHeaderClearSiteData = 'Clear-Site-Data';
 
@@ -546,7 +546,7 @@ export type HttpHeaderClearSiteData = 'Clear-Site-Data';
  * certificate used by the client in the TLS handshake.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-client-cert-field#section-2.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-cert-field)
+ * @see [Specification → Internet Draft ietf-httpbis-client-cert-field](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-cert-field)
  */
 export type HttpHeaderClientCert = 'Client-Cert';
 
@@ -561,7 +561,7 @@ export type HttpHeaderClientCert = 'Client-Cert';
  * been provided by the client during the TLS handshake.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-client-cert-field#section-2.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-cert-field)
+ * @see [Specification → Internet Draft ietf-httpbis-client-cert-field](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-client-cert-field)
  */
 export type HttpHeaderClientCertChain = 'Client-Cert-Chain';
 
@@ -572,7 +572,7 @@ export type HttpHeaderClientCertChain = 'Client-Cert-Chain';
  * Connection header field.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-8.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderClose = 'Close';
 
@@ -584,7 +584,7 @@ export type HttpHeaderClose = 'Close';
  * before forwarding the message.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-6.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderConnection = 'Connection';
 
@@ -595,7 +595,7 @@ export type HttpHeaderConnection = 'Connection';
  * expected to be revised.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2068#section-14.11)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2068)
+ * @see [Specification → RFC 2068](http://webconcepts.info/specs/IETF/RFC/2068)
  */
 export type HttpHeaderContentBase = 'Content-Base';
 
@@ -605,7 +605,7 @@ export type HttpHeaderContentBase = 'Content-Base';
  * hashing algorithm applied to the actual message content.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers)
+ * @see [Specification → Internet Draft ietf-httpbis-digest-headers](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers)
  */
 export type HttpHeaderContentDigest = 'Content-Digest';
 
@@ -617,7 +617,7 @@ export type HttpHeaderContentDigest = 'Content-Digest';
  * response payload locally.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6266#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6266)
+ * @see [Specification → RFC 6266](http://webconcepts.info/specs/IETF/RFC/6266)
  */
 export type HttpHeaderContentDisposition = 'Content-Disposition';
 
@@ -632,7 +632,7 @@ export type HttpHeaderContentDisposition = 'Content-Disposition';
  * identity of its underlying media type.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-3.1.2.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderContentEncoding = 'Content-Encoding';
 
@@ -643,7 +643,7 @@ export type HttpHeaderContentEncoding = 'Content-Encoding';
  * used within the representation.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-3.1.3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderContentLanguage = 'Content-Language';
 
@@ -659,7 +659,7 @@ export type HttpHeaderContentLanguage = 'Content-Language';
  * selected representation (Section 3 of [Part2]).
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-3.3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderContentLength = 'Content-Length';
 
@@ -673,7 +673,7 @@ export type HttpHeaderContentLength = 'Content-Length';
  * representation that is enclosed as payload in this message.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-3.1.4.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderContentLocation = 'Content-Location';
 
@@ -683,7 +683,7 @@ export type HttpHeaderContentLocation = 'Content-Location';
  * partial body should be applied.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-combs-http-indeterminate-range#section-2.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/combs-http-indeterminate-range)
+ * @see [Specification → Internet Draft combs-http-indeterminate-range](http://webconcepts.info/specs/IETF/I-D/combs-http-indeterminate-range)
  */
 export type HttpHeaderContentRange = 'Content-Range';
 
@@ -693,7 +693,7 @@ export type HttpHeaderContentRange = 'Content-Range';
  * server to a client.
  *
  * @see [Documentation](http://www.w3.org/TR/CSP3/#csp-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/CSP3)
+ * @see [Specification → W3C TR http://www.w3.org/TR/CSP3](http://webconcepts.info/specs/W3C/TR/CSP3)
  */
 export type HttpHeaderContentSecurityPolicy = 'Content-Security-Policy';
 
@@ -705,7 +705,7 @@ export type HttpHeaderContentSecurityPolicy = 'Content-Security-Policy';
  * policy to response" algorithm).
  *
  * @see [Documentation](http://www.w3.org/TR/csp-pinning/#content-security-policy-pin-header-field)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/csp-pinning)
+ * @see [Specification → W3C TR http://www.w3.org/TR/csp-pinning](http://webconcepts.info/specs/W3C/TR/csp-pinning)
  */
 export type HttpHeaderContentSecurityPolicyPin = 'Content-Security-Policy-Pin';
 
@@ -715,7 +715,7 @@ export type HttpHeaderContentSecurityPolicyPin = 'Content-Security-Policy-Pin';
  * monitoring (but not enforcing) their effects.
  *
  * @see [Documentation](http://www.w3.org/TR/CSP3/#cspro-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/CSP3)
+ * @see [Specification → W3C TR http://www.w3.org/TR/CSP3](http://webconcepts.info/specs/W3C/TR/CSP3)
  */
 export type HttpHeaderContentSecurityPolicyReportOnly = 'Content-Security-Policy-Report-Only';
 
@@ -727,7 +727,7 @@ export type HttpHeaderContentSecurityPolicyReportOnly = 'Content-Security-Policy
  * described in the "Pin a policy to response" algorithm).
  *
  * @see [Documentation](http://www.w3.org/TR/csp-pinning/#content-security-policy-report-only-pin-header-field)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/csp-pinning)
+ * @see [Specification → W3C TR http://www.w3.org/TR/csp-pinning](http://webconcepts.info/specs/W3C/TR/csp-pinning)
  */
 export type HttpHeaderContentSecurityPolicyReportOnlyPin = 'Content-Security-Policy-Report-Only-Pin';
 
@@ -737,7 +737,7 @@ export type HttpHeaderContentSecurityPolicyReportOnlyPin = 'Content-Security-Pol
  * to be protected from modification.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-thomson-http-content-signature#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/thomson-http-content-signature)
+ * @see [Specification → Internet Draft thomson-http-content-signature](http://webconcepts.info/specs/IETF/I-D/thomson-http-content-signature)
  */
 export type HttpHeaderContentSignature = 'Content-Signature';
 
@@ -749,7 +749,7 @@ export type HttpHeaderContentSignature = 'Content-Signature';
  * message part to display.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8255#section-6)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8255)
+ * @see [Specification → RFC 8255](http://webconcepts.info/specs/IETF/RFC/8255)
  */
 export type HttpHeaderContentTranslationType = 'Content-Translation-Type';
 
@@ -764,7 +764,7 @@ export type HttpHeaderContentTranslationType = 'Content-Translation-Type';
  * content codings indicated by Content-Encoding are decoded.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-3.1.1.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderContentType = 'Content-Type';
 
@@ -779,7 +779,7 @@ export type HttpHeaderContentType = 'Content-Type';
  * representations.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2068#section-19.6.2.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2068)
+ * @see [Specification → RFC 2068](http://webconcepts.info/specs/IETF/RFC/2068)
  */
 export type HttpHeaderContentVersion = 'Content-Version';
 
@@ -788,7 +788,7 @@ export type HttpHeaderContentVersion = 'Content-Version';
  * of warning information via HTTP.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-cedik-http-warning#section-8.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/cedik-http-warning)
+ * @see [Specification → Internet Draft cedik-http-warning](http://webconcepts.info/specs/IETF/I-D/cedik-http-warning)
  */
 export type HttpHeaderContentWarning = 'Content-Warning';
 
@@ -797,7 +797,7 @@ export type HttpHeaderContentWarning = 'Content-Warning';
  * the Cookie header.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis#section-4.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis)
+ * @see [Specification → Internet Draft ietf-httpbis-rfc6265bis](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis)
  */
 export type HttpHeaderCookie = 'Cookie';
 
@@ -807,7 +807,7 @@ export type HttpHeaderCookie = 'Cookie';
  * versions of the cookie specification.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2965#section-3.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2965)
+ * @see [Specification → RFC 2965](http://webconcepts.info/specs/IETF/RFC/2965)
  */
 export type HttpHeaderCookie2 = 'Cookie2';
 
@@ -823,7 +823,7 @@ export type HttpHeaderCookie2 = 'Cookie2';
  * and the element's local name).
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5323#section-9.1.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/5323)
+ * @see [Specification → RFC 5323](http://webconcepts.info/specs/IETF/RFC/5323)
  */
 export type HttpHeaderDASL = 'DASL';
 
@@ -835,7 +835,7 @@ export type HttpHeaderDASL = 'DASL';
  * server needs that information.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-10.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpHeaderDAV = 'DAV';
 
@@ -844,7 +844,7 @@ export type HttpHeaderDAV = 'DAV';
  * a user's tracking preference via HTTP.
  *
  * @see [Documentation](http://www.w3.org/TR/tracking-dnt/#dnt-header-field)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/tracking-dnt)
+ * @see [Specification → W3C TR http://www.w3.org/TR/tracking-dnt](http://webconcepts.info/specs/W3C/TR/tracking-dnt)
  */
 export type HttpHeaderDNT = 'DNT';
 
@@ -855,7 +855,7 @@ export type HttpHeaderDNT = 'DNT';
  * 3.6.1 of RFC 5322.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.1.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderDate = 'Date';
 
@@ -870,7 +870,7 @@ export type HttpHeaderDate = 'Date';
  * header.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3229#section-10.5.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3229)
+ * @see [Specification → RFC 3229](http://webconcepts.info/specs/IETF/RFC/3229)
  */
 export type HttpHeaderDeltaBase = 'Delta-Base';
 
@@ -882,7 +882,7 @@ export type HttpHeaderDeltaBase = 'Delta-Base';
  * version.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-deprecation-header#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-deprecation-header)
+ * @see [Specification → Internet Draft ietf-httpapi-deprecation-header](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-deprecation-header)
  */
 export type HttpHeaderDeprecation = 'Deprecation';
 
@@ -895,7 +895,7 @@ export type HttpHeaderDeprecation = 'Deprecation';
  * members ("Depth: infinity").
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-10.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpHeaderDepth = 'Depth';
 
@@ -905,7 +905,7 @@ export type HttpHeaderDepth = 'Depth';
  * and MOVE, which take two URIs as parameters.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-10.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpHeaderDestination = 'Destination';
 
@@ -915,7 +915,7 @@ export type HttpHeaderDestination = 'Destination';
  * GiB.
  *
  * @see [Documentation](http://www.w3.org/TR/device-memory-1/#sec-device-memory-client-hint-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/device-memory-1)
+ * @see [Specification → W3C TR http://www.w3.org/TR/device-memory-1](http://webconcepts.info/specs/W3C/TR/device-memory-1)
  */
 export type HttpHeaderDeviceMemory = 'Device-Memory';
 
@@ -924,7 +924,7 @@ export type HttpHeaderDeviceMemory = 'Device-Memory';
  * the instance described by the message.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3230#section-4.3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3230)
+ * @see [Specification → RFC 3230](http://webconcepts.info/specs/IETF/RFC/3230)
  */
 export type HttpHeaderDigest = 'Digest';
 
@@ -933,7 +933,7 @@ export type HttpHeaderDigest = 'Digest';
  * user agent is capable of supporting the features listed.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6017#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6017)
+ * @see [Specification → RFC 6017](http://webconcepts.info/specs/IETF/RFC/6017)
  */
 export type HttpHeaderEDIINTFeatures = 'EDIINT-Features';
 
@@ -943,7 +943,7 @@ export type HttpHeaderEDIINTFeatures = 'EDIINT-Features';
  * field along with a response.
  *
  * @see [Documentation](http://www.w3.org/TR/epr/#epr-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/epr)
+ * @see [Specification → W3C TR http://www.w3.org/TR/epr](http://webconcepts.info/specs/W3C/TR/epr)
  */
 export type HttpHeaderEPR = 'EPR';
 
@@ -958,7 +958,7 @@ export type HttpHeaderEPR = 'EPR';
  * representations being valid at the same time, or both.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7232#section-2.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7232)
+ * @see [Specification → RFC 7232](http://webconcepts.info/specs/IETF/RFC/7232)
  */
 export type HttpHeaderETag = 'ETag';
 
@@ -968,7 +968,7 @@ export type HttpHeaderETag = 'ETag';
  * understands the 425 (Too Early) status code.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8470#section-5.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8470)
+ * @see [Specification → RFC 8470](http://webconcepts.info/specs/IETF/RFC/8470)
  */
 export type HttpHeaderEarlyData = 'Early-Data';
 
@@ -978,7 +978,7 @@ export type HttpHeaderEarlyData = 'Early-Data';
  * the server in order to properly handle this request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.1.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderExpect = 'Expect';
 
@@ -989,7 +989,7 @@ export type HttpHeaderExpect = 'Expect';
  * the header field for CT compliance.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc9239#section-2.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/9163)
+ * @see [Specification → RFC 9163](http://webconcepts.info/specs/IETF/RFC/9163)
  */
 export type HttpHeaderExpectCT = 'Expect-CT';
 
@@ -1000,7 +1000,7 @@ export type HttpHeaderExpectCT = 'Expect-CT';
  * or cease to exist at, before, or after that time.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7234#section-5.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7234)
+ * @see [Specification → RFC 7234](http://webconcepts.info/specs/IETF/RFC/7234)
  */
 export type HttpHeaderExpires = 'Expires';
 
@@ -1010,7 +1010,7 @@ export type HttpHeaderExpires = 'Expires';
  * fulfilled.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2774#section-4.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2774)
+ * @see [Specification → RFC 2774](http://webconcepts.info/specs/IETF/RFC/2774)
  */
 export type HttpHeaderExt = 'Ext';
 
@@ -1020,7 +1020,7 @@ export type HttpHeaderExt = 'Ext';
  * policy that should be enforced by the client.
  *
  * @see [Documentation](http://www.w3.org/TR/feature-policy-1/#feature-policy-http-header-field)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/feature-policy-1)
+ * @see [Specification → W3C TR http://www.w3.org/TR/feature-policy-1](http://webconcepts.info/specs/W3C/TR/feature-policy-1)
  */
 export type HttpHeaderFeaturePolicy = 'Feature-Policy';
 
@@ -1032,7 +1032,7 @@ export type HttpHeaderFeaturePolicy = 'Feature-Policy';
  * request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7239#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7239)
+ * @see [Specification → RFC 7239](http://webconcepts.info/specs/IETF/RFC/7239)
  */
 export type HttpHeaderForwarded = 'Forwarded';
 
@@ -1041,7 +1041,7 @@ export type HttpHeaderForwarded = 'Forwarded';
  * for a human user who controls the requesting user agent.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.5.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderFrom = 'From';
 
@@ -1051,7 +1051,7 @@ export type HttpHeaderFrom = 'From';
  * same information, but using the GET method.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-reschke-http-get-location#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/reschke-http-get-location)
+ * @see [Specification → Internet Draft reschke-http-get-location](http://webconcepts.info/specs/IETF/I-D/reschke-http-get-location)
  */
 export type HttpHeaderGETLocation = 'GET-Location';
 
@@ -1064,7 +1064,7 @@ export type HttpHeaderGETLocation = 'GET-Location';
  * the request to upgrade.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7540#section-3.2.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7540)
+ * @see [Specification → RFC 7540](http://webconcepts.info/specs/IETF/RFC/7540)
  */
 export type HttpHeaderHTTP2Settings = 'HTTP2-Settings';
 
@@ -1078,7 +1078,7 @@ export type HttpHeaderHTTP2Settings = 'HTTP2-Settings';
  * header with a value of "reginwork".
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7486#section-6.1.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7486)
+ * @see [Specification → RFC 7486](http://webconcepts.info/specs/IETF/RFC/7486)
  */
 export type HttpHeaderHobareg = 'Hobareg';
 
@@ -1089,7 +1089,7 @@ export type HttpHeaderHobareg = 'Hobareg';
  * requests for multiple host names on a single IP address.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-5.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderHost = 'Host';
 
@@ -1100,7 +1100,7 @@ export type HttpHeaderHost = 'Host';
  * manipulations include delta encoding and compression.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3229#section-10.5.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3229)
+ * @see [Specification → RFC 3229](http://webconcepts.info/specs/IETF/RFC/3229)
  */
 export type HttpHeaderIM = 'IM';
 
@@ -1111,7 +1111,7 @@ export type HttpHeaderIM = 'IM';
  * request header field carries this key.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header-00#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-idempotency-key-header)
+ * @see [Specification → Internet Draft ietf-httpapi-idempotency-key-header](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-idempotency-key-header)
  */
 export type HttpHeaderIdempotencyKey = 'Idempotency-Key';
 
@@ -1124,7 +1124,7 @@ export type HttpHeaderIdempotencyKey = 'Idempotency-Key';
  * defined in this specification.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-10.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpHeaderIf = 'If';
 
@@ -1138,7 +1138,7 @@ export type HttpHeaderIf = 'If';
  * field-value.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7232#section-3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7232)
+ * @see [Specification → RFC 7232](http://webconcepts.info/specs/IETF/RFC/7232)
  */
 export type HttpHeaderIfMatch = 'If-Match';
 
@@ -1151,7 +1151,7 @@ export type HttpHeaderIfMatch = 'If-Match';
  * changed.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7232#section-3.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7232)
+ * @see [Specification → RFC 7232](http://webconcepts.info/specs/IETF/RFC/7232)
  */
 export type HttpHeaderIfModifiedSince = 'If-Modified-Since';
 
@@ -1164,7 +1164,7 @@ export type HttpHeaderIfModifiedSince = 'If-Modified-Since';
  * those listed in the field-value.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7232#section-3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7232)
+ * @see [Specification → RFC 7232](http://webconcepts.info/specs/IETF/RFC/7232)
  */
 export type HttpHeaderIfNoneMatch = 'If-None-Match';
 
@@ -1183,7 +1183,7 @@ export type HttpHeaderIfNoneMatch = 'If-None-Match';
  * the entire representation.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7233#section-3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7233)
+ * @see [Specification → RFC 7233](http://webconcepts.info/specs/IETF/RFC/7233)
  */
 export type HttpHeaderIfRange = 'If-Range';
 
@@ -1197,7 +1197,7 @@ export type HttpHeaderIfRange = 'If-Range';
  * resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6638#section-8.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6638)
+ * @see [Specification → RFC 6638](http://webconcepts.info/specs/IETF/RFC/6638)
  */
 export type HttpHeaderIfScheduleTagMatch = 'If-Schedule-Tag-Match';
 
@@ -1210,7 +1210,7 @@ export type HttpHeaderIfScheduleTagMatch = 'If-Schedule-Tag-Match';
  * not have an entity-tag for the representation.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7232#section-3.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7232)
+ * @see [Specification → RFC 7232](http://webconcepts.info/specs/IETF/RFC/7232)
  */
 export type HttpHeaderIfUnmodifiedSince = 'If-Unmodified-Since';
 
@@ -1221,7 +1221,7 @@ export type HttpHeaderIfUnmodifiedSince = 'If-Unmodified-Since';
  * header field in its HTTP response.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8473#section-5.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8473)
+ * @see [Specification → RFC 8473](http://webconcepts.info/specs/IETF/RFC/8473)
  */
 export type HttpHeaderIncludeReferredTokenBindingID = 'Include-Referred-Token-Binding-ID';
 
@@ -1233,7 +1233,7 @@ export type HttpHeaderIncludeReferredTokenBindingID = 'Include-Referred-Token-Bi
  * fine-grained description, using "key modifiers".
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-key#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-key)
+ * @see [Specification → Internet Draft ietf-httpbis-key](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-key)
  */
 export type HttpHeaderKey = 'Key';
 
@@ -1245,7 +1245,7 @@ export type HttpHeaderKey = 'Key';
  * version history of that version-controlled resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-8.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpHeaderLabel = 'Label';
 
@@ -1254,7 +1254,7 @@ export type HttpHeaderLabel = 'Label';
  * event source's last event ID string, encoded as UTF-8.
  *
  * @see [Documentation](http://www.w3.org/TR/eventsource/#last-event-id)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/eventsource)
+ * @see [Specification → W3C TR http://www.w3.org/TR/eventsource](http://webconcepts.info/specs/W3C/TR/eventsource)
  */
 export type HttpHeaderLastEventID = 'Last-Event-ID';
 
@@ -1266,7 +1266,7 @@ export type HttpHeaderLastEventID = 'Last-Event-ID';
  * request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7232#section-2.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7232)
+ * @see [Specification → RFC 7232](http://webconcepts.info/specs/IETF/RFC/7232)
  */
 export type HttpHeaderLastModified = 'Last-Modified';
 
@@ -1275,7 +1275,7 @@ export type HttpHeaderLastModified = 'Last-Modified';
  * or more links into HTTP headers.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8288#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8288)
+ * @see [Specification → RFC 8288](http://webconcepts.info/specs/IETF/RFC/8288)
  */
 export type HttpHeaderLink = 'Link';
 
@@ -1287,7 +1287,7 @@ export type HttpHeaderLink = 'Link';
  * Templates to convey the structure of links.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-link-template#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-link-template)
+ * @see [Specification → Internet Draft ietf-httpapi-link-template](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-link-template)
  */
 export type HttpHeaderLinkTemplate = 'Link-Template';
 
@@ -1298,7 +1298,7 @@ export type HttpHeaderLinkTemplate = 'Link-Template';
  * request method and status code semantics.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderLocation = 'Location';
 
@@ -1307,7 +1307,7 @@ export type HttpHeaderLocation = 'Location';
  * to identify the lock to be removed.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-10.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpHeaderLockToken = 'Lock-Token';
 
@@ -1322,7 +1322,7 @@ export type HttpHeaderLockToken = 'Lock-Token';
  * HTTP messages to strict MIME environments.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#appendix-A.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderMIMEVersion = 'MIME-Version';
 
@@ -1333,7 +1333,7 @@ export type HttpHeaderMIMEVersion = 'MIME-Version';
  * reporting an error.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2774#section-4.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2774)
+ * @see [Specification → RFC 2774](http://webconcepts.info/specs/IETF/RFC/2774)
  */
 export type HttpHeaderMan = 'Man';
 
@@ -1343,7 +1343,7 @@ export type HttpHeaderMan = 'Man';
  * times that the request is forwarded by proxies.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.1.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderMaxForwards = 'Max-Forwards';
 
@@ -1354,7 +1354,7 @@ export type HttpHeaderMaxForwards = 'Max-Forwards';
  * state.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7089#section-2.1.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7089)
+ * @see [Specification → RFC 7089](http://webconcepts.info/specs/IETF/RFC/7089)
  */
 export type HttpHeaderMementoDatetime = 'Memento-Datetime';
 
@@ -1365,7 +1365,7 @@ export type HttpHeaderMementoDatetime = 'Memento-Datetime';
  * array defines an NEL policy for the origin.
  *
  * @see [Documentation](http://www.w3.org/TR/network-error-logging-1/#nel-response-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/network-error-logging-1)
+ * @see [Specification → W3C TR http://www.w3.org/TR/network-error-logging-1](http://webconcepts.info/specs/W3C/TR/network-error-logging-1)
  */
 export type HttpHeaderNEL = 'NEL';
 
@@ -1374,7 +1374,7 @@ export type HttpHeaderNEL = 'NEL';
  * content negotiation process initiated by the request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2295#section-8.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2295)
+ * @see [Specification → RFC 2295](http://webconcepts.info/specs/IETF/RFC/2295)
  */
 export type HttpHeaderNegotiate = 'Negotiate';
 
@@ -1383,7 +1383,7 @@ export type HttpHeaderNegotiate = 'Negotiate';
  * important than a request that doesn't bear this header.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-thomson-http-nice#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/thomson-http-nice)
+ * @see [Specification → Internet Draft thomson-http-nice](http://webconcepts.info/specs/IETF/I-D/thomson-http-nice)
  */
 export type HttpHeaderNice = 'Nice';
 
@@ -1394,7 +1394,7 @@ export type HttpHeaderNice = 'Nice';
  * was acted on by the request.
  *
  * @see [Documentation](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752238)
- * @see [Specification](http://webconcepts.info/specs/OASIS/standard/odata-v4.0-part1-protocol)
+ * @see [Specification → OASIS Standard odata-v4.0-part1-protocol](http://webconcepts.info/specs/OASIS/standard/odata-v4.0-part1-protocol)
  */
 export type HttpHeaderODataEntityId = 'OData-EntityId';
 
@@ -1404,7 +1404,7 @@ export type HttpHeaderODataEntityId = 'OData-EntityId';
  * value for this header is snapshot.
  *
  * @see [Documentation](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752232)
- * @see [Specification](http://webconcepts.info/specs/OASIS/standard/odata-v4.0-part1-protocol)
+ * @see [Specification → OASIS Standard odata-v4.0-part1-protocol](http://webconcepts.info/specs/OASIS/standard/odata-v4.0-part1-protocol)
  */
 export type HttpHeaderODataIsolation = 'OData-Isolation';
 
@@ -1415,7 +1415,7 @@ export type HttpHeaderODataIsolation = 'OData-Isolation';
  * OData-MaxVersion.
  *
  * @see [Documentation](http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part1-protocol/odata-v4.0-errata03-os-part1-protocol-complete.html#_Toc453752233)
- * @see [Specification](http://webconcepts.info/specs/OASIS/standard/odata-v4.0-part1-protocol)
+ * @see [Specification → OASIS Standard odata-v4.0-part1-protocol](http://webconcepts.info/specs/OASIS/standard/odata-v4.0-part1-protocol)
  */
 export type HttpHeaderODataMaxVersion = 'OData-MaxVersion';
 
@@ -1425,7 +1425,7 @@ export type HttpHeaderODataMaxVersion = 'OData-MaxVersion';
  * transporting OSCORE messages over HTTP hops.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8613#section-11.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8613)
+ * @see [Specification → RFC 8613](http://webconcepts.info/specs/IETF/RFC/8613)
  */
 export type HttpHeaderOSCORE = 'OSCORE';
 
@@ -1440,7 +1440,7 @@ export type HttpHeaderOSCORE = 'OSCORE';
  * declaration.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2774#section-4.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2774)
+ * @see [Specification → RFC 2774](http://webconcepts.info/specs/IETF/RFC/2774)
  */
 export type HttpHeaderOpt = 'Opt';
 
@@ -1450,7 +1450,7 @@ export type HttpHeaderOpt = 'Opt';
  * authentication mechanism.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8053#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8053)
+ * @see [Specification → RFC 8053](http://webconcepts.info/specs/IETF/RFC/8053)
  */
 export type HttpHeaderOptionalWWWAuthenticate = 'Optional-WWW-Authenticate';
 
@@ -1465,7 +1465,7 @@ export type HttpHeaderOptionalWWWAuthenticate = 'Optional-WWW-Authenticate';
  * the semantics of the ordering are not being advertised.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3648#section-5.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3648)
+ * @see [Specification → RFC 3648](http://webconcepts.info/specs/IETF/RFC/3648)
  */
 export type HttpHeaderOrderingType = 'Ordering-Type';
 
@@ -1474,7 +1474,7 @@ export type HttpHeaderOrderingType = 'Ordering-Type';
  * or preflight request originates from.
  *
  * @see [Documentation](http://www.w3.org/TR/cors/#origin-request-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/cors)
+ * @see [Specification → W3C TR http://www.w3.org/TR/cors](http://webconcepts.info/specs/W3C/TR/cors)
  */
 export type HttpHeaderOrigin = 'Origin';
 
@@ -1485,7 +1485,7 @@ export type HttpHeaderOrigin = 'Origin';
  * than one "Origin-Cookie" header field.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-west-origin-cookies#section-4.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/west-origin-cookies)
+ * @see [Specification → Internet Draft west-origin-cookies](http://webconcepts.info/specs/IETF/I-D/west-origin-cookies)
  */
 export type HttpHeaderOriginCookie = 'Origin-Cookie';
 
@@ -1495,7 +1495,7 @@ export type HttpHeaderOriginCookie = 'Origin-Cookie';
  * during a COPY or MOVE.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-10.6)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpHeaderOverwrite = 'Overwrite';
 
@@ -1508,7 +1508,7 @@ export type HttpHeaderOverwrite = 'Overwrite';
  * gives one or more comma-separated directives.
  *
  * @see [Documentation](http://www.w3.org/TR/P3P/#syntax_ext)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/P3P)
+ * @see [Specification → W3C TR http://www.w3.org/TR/P3P](http://webconcepts.info/specs/W3C/TR/P3P)
  */
 export type HttpHeaderP3P = 'P3P';
 
@@ -1518,7 +1518,7 @@ export type HttpHeaderP3P = 'P3P';
  * is an end-to-end header field.
  *
  * @see [Documentation](http://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743947)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
+ * @see [Specification → W3C TR http://www.w3.org/TR/WD-http-pep](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
  */
 export type HttpHeaderPEP = 'PEP';
 
@@ -1527,7 +1527,7 @@ export type HttpHeaderPEP = 'PEP';
  * recipient of a message.
  *
  * @see [Documentation](http://www.w3.org/TR/WD-http-pep-971121.html#_Toc404743953)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
+ * @see [Specification → W3C TR http://www.w3.org/TR/WD-http-pep](http://webconcepts.info/specs/W3C/TR/WD-http-pep)
  */
 export type HttpHeaderPEPInfo = 'PEP-Info';
 
@@ -1537,7 +1537,7 @@ export type HttpHeaderPEPInfo = 'PEP-Info';
  * supports.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-nottingham-http-poe-00#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/nottingham-http-poe)
+ * @see [Specification → Internet Draft nottingham-http-poe](http://webconcepts.info/specs/IETF/I-D/nottingham-http-poe)
  */
 export type HttpHeaderPOE = 'POE';
 
@@ -1550,7 +1550,7 @@ export type HttpHeaderPOE = 'POE';
  * found in the content of the response body.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-nottingham-http-poe-00#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/nottingham-http-poe)
+ * @see [Specification → Internet Draft nottingham-http-poe](http://webconcepts.info/specs/IETF/I-D/nottingham-http-poe)
  */
 export type HttpHeaderPOELinks = 'POE-Links';
 
@@ -1566,7 +1566,7 @@ export type HttpHeaderPOELinks = 'POE-Links';
  * internal member URI in the collection's ordering.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3648#section-6.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3648)
+ * @see [Specification → RFC 3648](http://webconcepts.info/specs/IETF/RFC/3648)
  */
 export type HttpHeaderPosition = 'Position';
 
@@ -1579,7 +1579,7 @@ export type HttpHeaderPosition = 'Position';
  * a request, Pragma is ignored.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7234#section-5.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7234)
+ * @see [Specification → RFC 7234](http://webconcepts.info/specs/IETF/RFC/7234)
  */
 export type HttpHeaderPragma = 'Pragma';
 
@@ -1592,7 +1592,7 @@ export type HttpHeaderPragma = 'Pragma';
  * preferences.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7240#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7240)
+ * @see [Specification → RFC 7240](http://webconcepts.info/specs/IETF/RFC/7240)
  */
 export type HttpHeaderPrefer = 'Prefer';
 
@@ -1602,7 +1602,7 @@ export type HttpHeaderPrefer = 'Prefer';
  * resources as identified by their link relationships.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-pot-prefer-push#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/pot-prefer-push)
+ * @see [Specification → Internet Draft pot-prefer-push](http://webconcepts.info/specs/IETF/I-D/pot-prefer-push)
  */
 export type HttpHeaderPreferPush = 'Prefer-Push';
 
@@ -1613,7 +1613,7 @@ export type HttpHeaderPreferPush = 'Prefer-Push';
  * processing of a request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7240#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7240)
+ * @see [Specification → RFC 7240](http://webconcepts.info/specs/IETF/RFC/7240)
  */
 export type HttpHeaderPreferenceApplied = 'Preference-Applied';
 
@@ -1629,7 +1629,7 @@ export type HttpHeaderPreferenceApplied = 'Preference-Applied';
  * server.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-priority#section-5)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-priority)
+ * @see [Specification → Internet Draft ietf-httpbis-priority](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-priority)
  */
 export type HttpHeaderPriority = 'Priority';
 
@@ -1641,7 +1641,7 @@ export type HttpHeaderPriority = 'Priority';
  * Authentication Required) response.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7235#section-4.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7235)
+ * @see [Specification → RFC 7235](http://webconcepts.info/specs/IETF/RFC/7235)
  */
 export type HttpHeaderProxyAuthenticate = 'Proxy-Authenticate';
 
@@ -1655,7 +1655,7 @@ export type HttpHeaderProxyAuthenticate = 'Proxy-Authenticate';
  * to have the credentials necessary for authentication.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7615#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7615)
+ * @see [Specification → RFC 7615](http://webconcepts.info/specs/IETF/RFC/7615)
  */
 export type HttpHeaderProxyAuthenticationInfo = 'Proxy-Authentication-Info';
 
@@ -1667,7 +1667,7 @@ export type HttpHeaderProxyAuthenticationInfo = 'Proxy-Authentication-Info';
  * and/or realm of the resource being requested.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7235#section-4.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7235)
+ * @see [Specification → RFC 7235](http://webconcepts.info/specs/IETF/RFC/7235)
  */
 export type HttpHeaderProxyAuthorization = 'Proxy-Authorization';
 
@@ -1677,7 +1677,7 @@ export type HttpHeaderProxyAuthorization = 'Proxy-Authorization';
  * specified proxy.
  *
  * @see [Documentation](http://www.w3.org/TR/WD-proxy)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/WD-proxy)
+ * @see [Specification → W3C TR http://www.w3.org/TR/WD-proxy](http://webconcepts.info/specs/W3C/TR/WD-proxy)
  */
 export type HttpHeaderProxyFeatures = 'Proxy-Features';
 
@@ -1688,7 +1688,7 @@ export type HttpHeaderProxyFeatures = 'Proxy-Features';
  * request.
  *
  * @see [Documentation](http://www.w3.org/TR/WD-proxy)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/WD-proxy)
+ * @see [Specification → W3C TR http://www.w3.org/TR/WD-proxy](http://webconcepts.info/specs/W3C/TR/WD-proxy)
  */
 export type HttpHeaderProxyInstruction = 'Proxy-Instruction';
 
@@ -1698,7 +1698,7 @@ export type HttpHeaderProxyInstruction = 'Proxy-Instruction';
  * response and its associated request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc9209#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/9209)
+ * @see [Specification → RFC 9209](http://webconcepts.info/specs/IETF/RFC/9209)
  */
 export type HttpHeaderProxyStatus = 'Proxy-Status';
 
@@ -1712,7 +1712,7 @@ export type HttpHeaderProxyStatus = 'Proxy-Status';
  * particular URI.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2068#section-14.35)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2068)
+ * @see [Specification → RFC 2068](http://webconcepts.info/specs/IETF/RFC/2068)
  */
 export type HttpHeaderPublic = 'Public';
 
@@ -1723,7 +1723,7 @@ export type HttpHeaderPublic = 'Public';
  * in the most recently received Valid Pinning Header.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7469#section-2.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7469)
+ * @see [Specification → RFC 7469](http://webconcepts.info/specs/IETF/RFC/7469)
  */
 export type HttpHeaderPublicKeyPins = 'Public-Key-Pins';
 
@@ -1737,7 +1737,7 @@ export type HttpHeaderPublicKeyPins = 'Public-Key-Pins';
  * the Known Pinned Host.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7469#section-2.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7469)
+ * @see [Specification → RFC 7469](http://webconcepts.info/specs/IETF/RFC/7469)
  */
 export type HttpHeaderPublicKeyPinsReportOnly = 'Public-Key-Pins-Report-Only';
 
@@ -1747,7 +1747,7 @@ export type HttpHeaderPublicKeyPinsReportOnly = 'Public-Key-Pins-Report-Only';
  * field in the corresponding response.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ruellan-http-accept-push-policy#section-3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ruellan-http-accept-push-policy)
+ * @see [Specification → Internet Draft ruellan-http-accept-push-policy](http://webconcepts.info/specs/IETF/I-D/ruellan-http-accept-push-policy)
  */
 export type HttpHeaderPushPolicy = 'Push-Policy';
 
@@ -1758,7 +1758,7 @@ export type HttpHeaderPushPolicy = 'Push-Policy';
  * the entire selected representation data.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7233#section-3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7233)
+ * @see [Specification → RFC 7233](http://webconcepts.info/specs/IETF/RFC/7233)
  */
 export type HttpHeaderRange = 'Range';
 
@@ -1768,7 +1768,7 @@ export type HttpHeaderRange = 'Range';
  * client in the current time-window.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-ratelimit-headers#section-3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-ratelimit-headers)
+ * @see [Specification → Internet Draft ietf-httpapi-ratelimit-headers](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-ratelimit-headers)
  */
 export type HttpHeaderRateLimitLimit = 'RateLimit-Limit';
 
@@ -1778,7 +1778,7 @@ export type HttpHeaderRateLimitLimit = 'RateLimit-Limit';
  * resets.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-ratelimit-headers#section-3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-ratelimit-headers)
+ * @see [Specification → Internet Draft ietf-httpapi-ratelimit-headers](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-ratelimit-headers)
  */
 export type HttpHeaderRateLimitRemaining = 'RateLimit-Remaining';
 
@@ -1788,7 +1788,7 @@ export type HttpHeaderRateLimitRemaining = 'RateLimit-Remaining';
  * timestamp when the quota resets.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-polli-ratelimit-headers#section-3.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-ratelimit-headers)
+ * @see [Specification → Internet Draft ietf-httpapi-ratelimit-headers](http://webconcepts.info/specs/IETF/I-D/ietf-httpapi-ratelimit-headers)
  */
 export type HttpHeaderRateLimitReset = 'RateLimit-Reset';
 
@@ -1798,7 +1798,7 @@ export type HttpHeaderRateLimitReset = 'RateLimit-Reset';
  * as specified during redirect reference resource creation.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4437#section-12.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4437)
+ * @see [Specification → RFC 4437](http://webconcepts.info/specs/IETF/RFC/4437)
  */
 export type HttpHeaderRedirectRef = 'Redirect-Ref';
 
@@ -1809,7 +1809,7 @@ export type HttpHeaderRedirectRef = 'Redirect-Ref';
  * misspelled).
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.5.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderReferer = 'Referer';
 
@@ -1821,7 +1821,7 @@ export type HttpHeaderReferer = 'Referer';
  * application that issued the request.
  *
  * @see [Documentation](https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityClientID)
- * @see [Specification](http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0)
+ * @see [Specification → OASIS Standard repeatable-requests-v1.0](http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0)
  */
 export type HttpHeaderRepeatabilityClientID = 'Repeatability-Client-ID';
 
@@ -1832,7 +1832,7 @@ export type HttpHeaderRepeatabilityClientID = 'Repeatability-Client-ID';
  * first created.
  *
  * @see [Documentation](https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityFirstSent)
- * @see [Specification](http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0)
+ * @see [Specification → OASIS Standard repeatable-requests-v1.0](http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0)
  */
 export type HttpHeaderRepeatabilityFirstSent = 'Repeatability-First-Sent';
 
@@ -1844,7 +1844,7 @@ export type HttpHeaderRepeatabilityFirstSent = 'Repeatability-First-Sent';
  * for the request.
  *
  * @see [Documentation](https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityRequestID)
- * @see [Specification](http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0)
+ * @see [Specification → OASIS Standard repeatable-requests-v1.0](http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0)
  */
 export type HttpHeaderRepeatabilityRequestID = 'Repeatability-Request-ID';
 
@@ -1855,7 +1855,7 @@ export type HttpHeaderRepeatabilityRequestID = 'Repeatability-Request-ID';
  * accepted or rejected.
  *
  * @see [Documentation](https://docs.oasis-open.org/odata/repeatable-requests/v1.0/cs01/repeatable-requests-v1.0-cs01.html#sec_RepeatabilityResult)
- * @see [Specification](http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0)
+ * @see [Specification → OASIS Standard repeatable-requests-v1.0](http://webconcepts.info/specs/OASIS/standard/repeatable-requests-v1.0)
  */
 export type HttpHeaderRepeatabilityResult = 'Repeatability-Result';
 
@@ -1864,7 +1864,7 @@ export type HttpHeaderRepeatabilityResult = 'Repeatability-Result';
  * agent to store reporting endpoints for an origin.
  *
  * @see [Documentation](http://www.w3.org/TR/reporting-1/#header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/reporting-1)
+ * @see [Specification → W3C TR http://www.w3.org/TR/reporting-1](http://webconcepts.info/specs/W3C/TR/reporting-1)
  */
 export type HttpHeaderReportTo = 'Report-To';
 
@@ -1875,7 +1875,7 @@ export type HttpHeaderReportTo = 'Report-To';
  * representation data.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers)
+ * @see [Specification → Internet Draft ietf-httpbis-digest-headers](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers)
  */
 export type HttpHeaderReprDigest = 'Repr-Digest';
 
@@ -1890,7 +1890,7 @@ export type HttpHeaderReprDigest = 'Repr-Digest';
  * issuing the redirected request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderRetryAfter = 'Retry-After';
 
@@ -1903,7 +1903,7 @@ export type HttpHeaderRetryAfter = 'Retry-After';
  * issuing a SOAP HTTP Request.
  *
  * @see [Documentation](http://www.w3.org/TR/2000/NOTE-SOAP-20000508/#_Toc478383528)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/SOAP)
+ * @see [Specification → W3C TR http://www.w3.org/TR/SOAP](http://webconcepts.info/specs/W3C/TR/SOAP)
  */
 export type HttpHeaderSOAPAction = 'SOAPAction';
 
@@ -1920,7 +1920,7 @@ export type HttpHeaderSOAPAction = 'SOAPAction';
  * content and transfer codings.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2310#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2310)
+ * @see [Specification → RFC 2310](http://webconcepts.info/specs/IETF/RFC/2310)
  */
 export type HttpHeaderSafe = 'Safe';
 
@@ -1937,7 +1937,7 @@ export type HttpHeaderSafe = 'Safe';
  * arises.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6638#section-8.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6638)
+ * @see [Specification → RFC 6638](http://webconcepts.info/specs/IETF/RFC/6638)
  */
 export type HttpHeaderScheduleReply = 'Schedule-Reply';
 
@@ -1946,7 +1946,7 @@ export type HttpHeaderScheduleReply = 'Schedule-Reply';
  * of the CALDAV:schedule-tag property value.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6638#section-8.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6638)
+ * @see [Specification → RFC 6638](http://webconcepts.info/specs/IETF/RFC/6638)
  */
 export type HttpHeaderScheduleTag = 'Schedule-Tag';
 
@@ -1956,7 +1956,7 @@ export type HttpHeaderScheduleTag = 'Schedule-Tag';
  * and user agents, respectively.
  *
  * @see [Documentation](http://www.w3.org/TR/COWL/#header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/COWL)
+ * @see [Specification → W3C TR http://www.w3.org/TR/COWL](http://webconcepts.info/specs/W3C/TR/COWL)
  */
 export type HttpHeaderSecCOWL = 'Sec-COWL';
 
@@ -1965,7 +1965,7 @@ export type HttpHeaderSecCOWL = 'Sec-COWL';
  * destination to a server.
  *
  * @see [Documentation](http://www.w3.org/TR/fetch-metadata/#sec-fetch-dest-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/fetch-metadata)
+ * @see [Specification → W3C TR http://www.w3.org/TR/fetch-metadata](http://webconcepts.info/specs/W3C/TR/fetch-metadata)
  */
 export type HttpHeaderSecFetchDest = 'Sec-Fetch-Dest';
 
@@ -1974,7 +1974,7 @@ export type HttpHeaderSecFetchDest = 'Sec-Fetch-Dest';
  * mode to a server.
  *
  * @see [Documentation](http://www.w3.org/TR/fetch-metadata/#sec-fetch-mode-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/fetch-metadata)
+ * @see [Specification → W3C TR http://www.w3.org/TR/fetch-metadata](http://webconcepts.info/specs/W3C/TR/fetch-metadata)
  */
 export type HttpHeaderSecFetchMode = 'Sec-Fetch-Mode';
 
@@ -1984,7 +1984,7 @@ export type HttpHeaderSecFetchMode = 'Sec-Fetch-Mode';
  * target’s origin.
  *
  * @see [Documentation](http://www.w3.org/TR/fetch-metadata/#sec-fetch-site-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/fetch-metadata)
+ * @see [Specification → W3C TR http://www.w3.org/TR/fetch-metadata](http://webconcepts.info/specs/W3C/TR/fetch-metadata)
  */
 export type HttpHeaderSecFetchSite = 'Sec-Fetch-Site';
 
@@ -1993,7 +1993,7 @@ export type HttpHeaderSecFetchSite = 'Sec-Fetch-Site';
  * not a navigation request was triggered by user activation.
  *
  * @see [Documentation](http://www.w3.org/TR/fetch-metadata/#sec-fetch-user-header)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/fetch-metadata)
+ * @see [Specification → W3C TR http://www.w3.org/TR/fetch-metadata](http://webconcepts.info/specs/W3C/TR/fetch-metadata)
  */
 export type HttpHeaderSecFetchUser = 'Sec-Fetch-User';
 
@@ -2006,7 +2006,7 @@ export type HttpHeaderSecFetchUser = 'Sec-Fetch-User';
  * included in HTTP responses.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8473#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8473)
+ * @see [Specification → RFC 8473](http://webconcepts.info/specs/IETF/RFC/8473)
  */
 export type HttpHeaderSecTokenBinding = 'Sec-Token-Binding';
 
@@ -2017,7 +2017,7 @@ export type HttpHeaderSecTokenBinding = 'Sec-Token-Binding';
  * the WebSocket connection.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6455#section-11.3.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6455)
+ * @see [Specification → RFC 6455](http://webconcepts.info/specs/IETF/RFC/6455)
  */
 export type HttpHeaderSecWebSocketAccept = 'Sec-WebSocket-Accept';
 
@@ -2029,7 +2029,7 @@ export type HttpHeaderSecWebSocketAccept = 'Sec-WebSocket-Accept';
  * extensions to use for the duration of the connection.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6455#section-11.3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6455)
+ * @see [Specification → RFC 6455](http://webconcepts.info/specs/IETF/RFC/6455)
  */
 export type HttpHeaderSecWebSocketExtensions = 'Sec-WebSocket-Extensions';
 
@@ -2040,7 +2040,7 @@ export type HttpHeaderSecWebSocketExtensions = 'Sec-WebSocket-Extensions';
  * prove that it received a valid WebSocket opening handshake.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6455#section-11.3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6455)
+ * @see [Specification → RFC 6455](http://webconcepts.info/specs/IETF/RFC/6455)
  */
 export type HttpHeaderSecWebSocketKey = 'Sec-WebSocket-Key';
 
@@ -2053,7 +2053,7 @@ export type HttpHeaderSecWebSocketKey = 'Sec-WebSocket-Key';
  * to serve that subprotocol.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6455#section-11.3.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6455)
+ * @see [Specification → RFC 6455](http://webconcepts.info/specs/IETF/RFC/6455)
  */
 export type HttpHeaderSecWebSocketProtocol = 'Sec-WebSocket-Protocol';
 
@@ -2072,7 +2072,7 @@ export type HttpHeaderSecWebSocketProtocol = 'Sec-WebSocket-Protocol';
  * includes the protocol version(s) supported by the server.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6455#section-11.3.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6455)
+ * @see [Specification → RFC 6455](http://webconcepts.info/specs/IETF/RFC/6455)
  */
 export type HttpHeaderSecWebSocketVersion = 'Sec-WebSocket-Version';
 
@@ -2084,7 +2084,7 @@ export type HttpHeaderSecWebSocketVersion = 'Sec-WebSocket-Version';
  * and generate the appropriate cryptographic options headers.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2660#section-4.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2660)
+ * @see [Specification → RFC 2660](http://webconcepts.info/specs/IETF/RFC/2660)
  */
 export type HttpHeaderSecurityScheme = 'Security-Scheme';
 
@@ -2097,7 +2097,7 @@ export type HttpHeaderSecurityScheme = 'Security-Scheme';
  * analytics regarding server or operating system use.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-7.4.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderServer = 'Server';
 
@@ -2107,7 +2107,7 @@ export type HttpHeaderServer = 'Server';
  * cycle.
  *
  * @see [Documentation](http://www.w3.org/TR/server-timing/#the-server-timing-header-field)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/server-timing)
+ * @see [Specification → W3C TR http://www.w3.org/TR/server-timing](http://webconcepts.info/specs/W3C/TR/server-timing)
  */
 export type HttpHeaderServerTiming = 'Server-Timing';
 
@@ -2117,7 +2117,7 @@ export type HttpHeaderServerTiming = 'Server-Timing';
  * this request is a service worker's script resource request.
  *
  * @see [Documentation](http://www.w3.org/TR/service-workers-1/#service-worker-script-request)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/service-workers-1)
+ * @see [Specification → W3C TR http://www.w3.org/TR/service-workers-1](http://webconcepts.info/specs/W3C/TR/service-workers-1)
  */
 export type HttpHeaderServiceWorker = 'Service-Worker';
 
@@ -2129,7 +2129,7 @@ export type HttpHeaderServiceWorker = 'Service-Worker';
  * the script can control, to the given value.
  *
  * @see [Documentation](http://www.w3.org/TR/service-workers-1/#service-worker-script-response)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/service-workers-1)
+ * @see [Specification → W3C TR http://www.w3.org/TR/service-workers-1](http://webconcepts.info/specs/W3C/TR/service-workers-1)
  */
 export type HttpHeaderServiceWorkerAllowed = 'Service-Worker-Allowed';
 
@@ -2138,7 +2138,7 @@ export type HttpHeaderServiceWorkerAllowed = 'Service-Worker-Allowed';
  * from the server to the user agent.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis#section-4.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis)
+ * @see [Specification → Internet Draft ietf-httpbis-rfc6265bis](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-rfc6265bis)
  */
 export type HttpHeaderSetCookie = 'Set-Cookie';
 
@@ -2148,7 +2148,7 @@ export type HttpHeaderSetCookie = 'Set-Cookie';
  * Set-Cookie2.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2965#section-3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2965)
+ * @see [Specification → RFC 2965](http://webconcepts.info/specs/IETF/RFC/2965)
  */
 export type HttpHeaderSetCookie2 = 'Set-Cookie2';
 
@@ -2163,7 +2163,7 @@ export type HttpHeaderSetCookie2 = 'Set-Cookie2';
  * header.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-cavage-http-signatures#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/cavage-http-signatures)
+ * @see [Specification → Internet Draft cavage-http-signatures](http://webconcepts.info/specs/IETF/I-D/cavage-http-signatures)
  */
 export type HttpHeaderSignature = 'Signature';
 
@@ -2174,7 +2174,7 @@ export type HttpHeaderSignature = 'Signature';
  * used to retrieve the to-be-created Entry or Media Resources.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5023#section-9.7)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/5023)
+ * @see [Specification → RFC 5023](http://webconcepts.info/specs/IETF/RFC/5023)
  */
 export type HttpHeaderSlug = 'Slug';
 
@@ -2184,7 +2184,7 @@ export type HttpHeaderSlug = 'Slug';
  * status of a method.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2518#section-9.7)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2518)
+ * @see [Specification → RFC 2518](http://webconcepts.info/specs/IETF/RFC/2518)
  */
 export type HttpHeaderStatusURI = 'Status-URI';
 
@@ -2195,7 +2195,7 @@ export type HttpHeaderStatusURI = 'Status-URI';
  * message containing this header field.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc6797#section-6.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/6797)
+ * @see [Specification → RFC 6797](http://webconcepts.info/specs/IETF/RFC/6797)
  */
 export type HttpHeaderStrictTransportSecurity = 'Strict-Transport-Security';
 
@@ -2207,7 +2207,7 @@ export type HttpHeaderStrictTransportSecurity = 'Strict-Transport-Security';
  * instance specified by the client's request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-mogul-http-dupsup#section-5.2.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/mogul-http-dupsup)
+ * @see [Specification → Internet Draft mogul-http-dupsup](http://webconcepts.info/specs/IETF/I-D/mogul-http-dupsup)
  */
 export type HttpHeaderSubOK = 'SubOK';
 
@@ -2219,7 +2219,7 @@ export type HttpHeaderSubOK = 'SubOK';
  * SubOK request header field.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-mogul-http-dupsup#section-5.2.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/mogul-http-dupsup)
+ * @see [Specification → Internet Draft mogul-http-dupsup](http://webconcepts.info/specs/IETF/I-D/mogul-http-dupsup)
  */
 export type HttpHeaderSubst = 'Subst';
 
@@ -2233,7 +2233,7 @@ export type HttpHeaderSubst = 'Subst';
  * resource is expected to become unresponsive.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8594#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8594)
+ * @see [Specification → RFC 8594](http://webconcepts.info/specs/IETF/RFC/8594)
  */
 export type HttpHeaderSunset = 'Sunset';
 
@@ -2245,7 +2245,7 @@ export type HttpHeaderSunset = 'Sunset';
  * They follow the form of product tokens in HTTP.
  *
  * @see [Documentation](http://www.w3.org/TR/edge-arch/)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/edge-arch)
+ * @see [Specification → W3C TR http://www.w3.org/TR/edge-arch](http://webconcepts.info/specs/W3C/TR/edge-arch)
  */
 export type HttpHeaderSurrogateCapability = 'Surrogate-Capability';
 
@@ -2256,7 +2256,7 @@ export type HttpHeaderSurrogateCapability = 'Surrogate-Capability';
  * control processing and cache behavior.
  *
  * @see [Documentation](http://www.w3.org/TR/edge-arch/)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/edge-arch)
+ * @see [Specification → W3C TR http://www.w3.org/TR/edge-arch](http://webconcepts.info/specs/W3C/TR/edge-arch)
  */
 export type HttpHeaderSurrogateControl = 'Surrogate-Control';
 
@@ -2265,7 +2265,7 @@ export type HttpHeaderSurrogateControl = 'Surrogate-Control';
  * the resource is transparently negotiated.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2295#section-8.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2295)
+ * @see [Specification → RFC 2295](http://webconcepts.info/specs/IETF/RFC/2295)
  */
 export type HttpHeaderTCN = 'TCN';
 
@@ -2276,7 +2276,7 @@ export type HttpHeaderTCN = 'TCN';
  * trailer fields in a chunked transfer coding.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-4.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderTE = 'TE';
 
@@ -2287,7 +2287,7 @@ export type HttpHeaderTE = 'TE';
  * how long a push message is retained by the push service.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8030#section-5.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8030)
+ * @see [Specification → RFC 8030](http://webconcepts.info/specs/IETF/RFC/8030)
  */
 export type HttpHeaderTTL = 'TTL';
 
@@ -2297,7 +2297,7 @@ export type HttpHeaderTTL = 'TTL';
  * even consider these requests.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-10.7)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpHeaderTimeout = 'Timeout';
 
@@ -2306,7 +2306,7 @@ export type HttpHeaderTimeout = 'Timeout';
  * Isomorphic with the <title> element in HTML.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4229#section-2.2.11)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4229)
+ * @see [Specification → RFC 4229](http://webconcepts.info/specs/IETF/RFC/4229)
  */
 export type HttpHeaderTitle = 'Title';
 
@@ -2318,7 +2318,7 @@ export type HttpHeaderTitle = 'Title';
  * interactive change to the tracking status.
  *
  * @see [Documentation](http://www.w3.org/TR/tracking-dnt/#response-header-field)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/tracking-dnt)
+ * @see [Specification → W3C TR http://www.w3.org/TR/tracking-dnt](http://webconcepts.info/specs/W3C/TR/tracking-dnt)
  */
 export type HttpHeaderTk = 'Tk';
 
@@ -2329,7 +2329,7 @@ export type HttpHeaderTk = 'Tk';
  * semantics.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8030#section-5.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8030)
+ * @see [Specification → RFC 8030](http://webconcepts.info/specs/IETF/RFC/8030)
  */
 export type HttpHeaderTopic = 'Topic';
 
@@ -2342,7 +2342,7 @@ export type HttpHeaderTopic = 'Topic';
  * present in the trailers.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-4.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderTrailer = 'Trailer';
 
@@ -2353,7 +2353,7 @@ export type HttpHeaderTrailer = 'Trailer';
  * to form the message body.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-3.3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderTransferEncoding = 'Transfer-Encoding';
 
@@ -2364,7 +2364,7 @@ export type HttpHeaderTransferEncoding = 'Transfer-Encoding';
  * that might be used within the tunnel.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-tunnel-protocol#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-tunnel-protocol)
+ * @see [Specification → Internet Draft ietf-httpbis-tunnel-protocol](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-tunnel-protocol)
  */
 export type HttpHeaderTunnelProtocol = 'Tunnel-Protocol';
 
@@ -2384,7 +2384,7 @@ export type HttpHeaderTunnelProtocol = 'Tunnel-Protocol';
  * in favor of those other fields.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2068#section-19.6.2.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2068)
+ * @see [Specification → RFC 2068](http://webconcepts.info/specs/IETF/RFC/2068)
  */
 export type HttpHeaderURI = 'URI';
 
@@ -2398,7 +2398,7 @@ export type HttpHeaderURI = 'URI';
  * response.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-6.7)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderUpgrade = 'Upgrade';
 
@@ -2411,7 +2411,7 @@ export type HttpHeaderUpgrade = 'Upgrade';
  * preference as seamless as possible to provide.
  *
  * @see [Documentation](http://www.w3.org/TR/upgrade-insecure-requests/#preference)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/upgrade-insecure-requests)
+ * @see [Specification → W3C TR http://www.w3.org/TR/upgrade-insecure-requests](http://webconcepts.info/specs/W3C/TR/upgrade-insecure-requests)
  */
 export type HttpHeaderUpgradeInsecureRequests = 'Upgrade-Insecure-Requests';
 
@@ -2424,7 +2424,7 @@ export type HttpHeaderUpgradeInsecureRequests = 'Upgrade-Insecure-Requests';
  * of "normal".
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc8030#section-5.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/8030)
+ * @see [Specification → RFC 8030](http://webconcepts.info/specs/IETF/RFC/8030)
  */
 export type HttpHeaderUrgency = 'Urgency';
 
@@ -2437,7 +2437,7 @@ export type HttpHeaderUrgency = 'Urgency';
  * for analytics regarding browser or operating system use.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-5.5.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderUserAgent = 'User-Agent';
 
@@ -2447,7 +2447,7 @@ export type HttpHeaderUserAgent = 'User-Agent';
  * identify the representation it occurs within.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-variants#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-variants)
+ * @see [Specification → Internet Draft ietf-httpbis-variants](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-variants)
  */
 export type HttpHeaderVariantKey = 'Variant-Key';
 
@@ -2459,7 +2459,7 @@ export type HttpHeaderVariantKey = 'Variant-Key';
  * the response as a whole.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc2295#section-8.6)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/2295)
+ * @see [Specification → RFC 2295](http://webconcepts.info/specs/IETF/RFC/2295)
  */
 export type HttpHeaderVariantVary = 'Variant-Vary';
 
@@ -2471,7 +2471,7 @@ export type HttpHeaderVariantVary = 'Variant-Vary';
  * values that are available for each.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-variants#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-variants)
+ * @see [Specification → Internet Draft ietf-httpbis-variants](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-variants)
  */
 export type HttpHeaderVariants = 'Variants';
 
@@ -2484,7 +2484,7 @@ export type HttpHeaderVariants = 'Variants';
  * ("*") or a list of header field names (case-insensitive).
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpHeaderVary = 'Vary';
 
@@ -2499,7 +2499,7 @@ export type HttpHeaderVary = 'Vary';
  * along the request/response chain.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7230#section-5.7.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7230)
+ * @see [Specification → RFC 7230](http://webconcepts.info/specs/IETF/RFC/7230)
  */
 export type HttpHeaderVia = 'Via';
 
@@ -2511,7 +2511,7 @@ export type HttpHeaderVia = 'Via';
  * above.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7616#section-3.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7616)
+ * @see [Specification → RFC 7616](http://webconcepts.info/specs/IETF/RFC/7616)
  */
 export type HttpHeaderWWWAuthenticate = 'WWW-Authenticate';
 
@@ -2522,7 +2522,7 @@ export type HttpHeaderWWWAuthenticate = 'WWW-Authenticate';
  * Content-Digest field.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers)
+ * @see [Specification → Internet Draft ietf-httpbis-digest-headers](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers)
  */
 export type HttpHeaderWantContentDigest = 'Want-Content-Digest';
 
@@ -2532,7 +2532,7 @@ export type HttpHeaderWantContentDigest = 'Want-Content-Digest';
  * with the Request-URI.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3230#section-4.3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3230)
+ * @see [Specification → RFC 3230](http://webconcepts.info/specs/IETF/RFC/3230)
  */
 export type HttpHeaderWantDigest = 'Want-Digest';
 
@@ -2543,7 +2543,7 @@ export type HttpHeaderWantDigest = 'Want-Digest';
  * Repr-Digest field.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-digest-headers#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers)
+ * @see [Specification → Internet Draft ietf-httpbis-digest-headers](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-digest-headers)
  */
 export type HttpHeaderWantReprDigest = 'Want-Repr-Digest';
 
@@ -2556,7 +2556,7 @@ export type HttpHeaderWantReprDigest = 'Want-Repr-Digest';
  * transformations applied to the payload of the message.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7234#section-5.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7234)
+ * @see [Specification → RFC 7234](http://webconcepts.info/specs/IETF/RFC/7234)
  */
 export type HttpHeaderWarning = 'Warning';
 
@@ -2570,7 +2570,7 @@ export type HttpHeaderWarning = 'Warning';
  * frames.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7034#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7034)
+ * @see [Specification → RFC 7034](http://webconcepts.info/specs/IETF/RFC/7034)
  */
 export type HttpHeaderXFrameOptions = 'X-Frame-Options';
 
@@ -2579,7 +2579,7 @@ export type HttpHeaderXFrameOptions = 'X-Frame-Options';
  * tracing system in a common format.
  *
  * @see [Documentation](http://www.w3.org/TR/trace-context/#traceparent-field)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/trace-context)
+ * @see [Specification → W3C TR http://www.w3.org/TR/trace-context](http://webconcepts.info/specs/W3C/TR/trace-context)
  */
 export type HttpHeaderTraceparent = 'Traceparent';
 
@@ -2588,7 +2588,7 @@ export type HttpHeaderTraceparent = 'Traceparent';
  * request position in multiple distributed tracing graphs.
  *
  * @see [Documentation](http://www.w3.org/TR/trace-context/#tracestate-field)
- * @see [Specification](http://webconcepts.info/specs/W3C/TR/trace-context)
+ * @see [Specification → W3C TR http://www.w3.org/TR/trace-context](http://webconcepts.info/specs/W3C/TR/trace-context)
  */
 export type HttpHeaderTracestate = 'Tracestate';
 

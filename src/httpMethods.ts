@@ -11,7 +11,7 @@
  * ACEs that are not inherited, and are not protected.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3744#section-8.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3744)
+ * @see [Specification → RFC 3744](http://webconcepts.info/specs/IETF/RFC/3744)
  */
 export type HttpMethodAcl = 'ACL';
 
@@ -25,7 +25,7 @@ export type HttpMethodAcl = 'ACL';
  * create a new baseline for that collection.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-12.6)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodBaselineControl = 'BASELINE-CONTROL';
 
@@ -36,7 +36,7 @@ export type HttpMethodBaselineControl = 'BASELINE-CONTROL';
  * BIND body.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5842#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/5842)
+ * @see [Specification → RFC 5842](http://webconcepts.info/specs/IETF/RFC/5842)
  */
 export type HttpMethodBind = 'BIND';
 
@@ -47,7 +47,7 @@ export type HttpMethodBind = 'BIND';
  * resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-4.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodCheckin = 'CHECKIN';
 
@@ -58,7 +58,7 @@ export type HttpMethodCheckin = 'CHECKIN';
  * resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-4.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodCheckout = 'CHECKOUT';
 
@@ -73,7 +73,7 @@ export type HttpMethodCheckout = 'CHECKOUT';
  * Layer Security).
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.6)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpMethodConnect = 'CONNECT';
 
@@ -85,7 +85,7 @@ export type HttpMethodConnect = 'CONNECT';
  * the COPY method depends on the type of the source resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.8)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpMethodCopy = 'COPY';
 
@@ -98,7 +98,7 @@ export type HttpMethodCopy = 'COPY';
  * that the previously associated information be deleted.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpMethodDelete = 'DELETE';
 
@@ -111,7 +111,7 @@ export type HttpMethodDelete = 'DELETE';
  * generally referring to making a GET request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpMethodGet = 'GET';
 
@@ -128,7 +128,7 @@ export type HttpMethodGet = 'GET';
  * links for validity, accessibility, and recent modification.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpMethodHead = 'HEAD';
 
@@ -141,7 +141,7 @@ export type HttpMethodHead = 'HEAD';
  * comparison of the two label names.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-8.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodLabel = 'LABEL';
 
@@ -151,7 +151,7 @@ export type HttpMethodLabel = 'LABEL';
  * effective request URI and one or more other resources.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-snell-link-method#section-3)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/snell-link-method)
+ * @see [Specification → Internet Draft snell-link-method](http://webconcepts.info/specs/IETF/I-D/snell-link-method)
  */
 export type HttpMethodLink = 'LINK';
 
@@ -160,7 +160,7 @@ export type HttpMethodLink = 'LINK';
  * type and to refresh an existing lock.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.10)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpMethodLock = 'LOCK';
 
@@ -175,7 +175,7 @@ export type HttpMethodLock = 'LOCK';
  * the DAV:merge-set of the merge target.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-11.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodMerge = 'MERGE';
 
@@ -187,7 +187,7 @@ export type HttpMethodMerge = 'MERGE';
  * request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-13.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodMkactivity = 'MKACTIVITY';
 
@@ -197,7 +197,7 @@ export type HttpMethodMkactivity = 'MKACTIVITY';
  * collection creation to particular collections.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4791#section-5.3.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4791)
+ * @see [Specification → RFC 4791](http://webconcepts.info/specs/IETF/RFC/4791)
  */
 export type HttpMethodMkcalendar = 'MKCALENDAR';
 
@@ -213,7 +213,7 @@ export type HttpMethodMkcalendar = 'MKCALENDAR';
  * 409 (Conflict) status code.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpMethodMkcol = 'MKCOL';
 
@@ -222,7 +222,7 @@ export type HttpMethodMkcol = 'MKCOL';
  * reference resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4437#section-6)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4437)
+ * @see [Specification → RFC 4437](http://webconcepts.info/specs/IETF/RFC/4437)
  */
 export type HttpMethodMkredirectref = 'MKREDIRECTREF';
 
@@ -234,7 +234,7 @@ export type HttpMethodMkredirectref = 'MKREDIRECTREF';
  * OPTIONS request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-6.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodMkworkspace = 'MKWORKSPACE';
 
@@ -249,7 +249,7 @@ export type HttpMethodMkworkspace = 'MKWORKSPACE';
  * resource, to point to the new destination resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.9)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpMethodMove = 'MOVE';
 
@@ -262,7 +262,7 @@ export type HttpMethodMove = 'MOVE';
  * of a server, without implying a resource action.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.7)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpMethodOptions = 'OPTIONS';
 
@@ -272,7 +272,7 @@ export type HttpMethodOptions = 'OPTIONS';
  * collection's members in the ordering, or both.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3648#section-7)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3648)
+ * @see [Specification → RFC 3648](http://webconcepts.info/specs/IETF/RFC/3648)
  */
 export type HttpMethodOrderpatch = 'ORDERPATCH';
 
@@ -287,7 +287,7 @@ export type HttpMethodOrderpatch = 'ORDERPATCH';
  * resource) and permissions, etc.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5789#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/5789)
+ * @see [Specification → RFC 5789](http://webconcepts.info/specs/IETF/RFC/5789)
  */
 export type HttpMethodPatch = 'PATCH';
 
@@ -297,7 +297,7 @@ export type HttpMethodPatch = 'PATCH';
  * resource's own specific semantics.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.3)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpMethodPost = 'POST';
 
@@ -307,7 +307,7 @@ export type HttpMethodPost = 'POST';
  * intermediary attempts to parse an HTTP/2 connection preface.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7540#section-3.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7540)
+ * @see [Specification → RFC 7540](http://webconcepts.info/specs/IETF/RFC/7540)
  */
 export type HttpMethodPri = 'PRI';
 
@@ -319,7 +319,7 @@ export type HttpMethodPri = 'PRI';
  * the resource is a collection that has internal member URLs.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpMethodPropfind = 'PROPFIND';
 
@@ -329,7 +329,7 @@ export type HttpMethodPropfind = 'PROPFIND';
  * resource identified by the Request-URI.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpMethodProppatch = 'PROPPATCH';
 
@@ -349,7 +349,7 @@ export type HttpMethodProppatch = 'PROPPATCH';
  * the time of its processing by the origin server.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.4)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpMethodPut = 'PUT';
 
@@ -365,7 +365,7 @@ export type HttpMethodPut = 'PUT';
  * the effective request URI.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-safe-method-w-body#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-safe-method-w-body)
+ * @see [Specification → Internet Draft ietf-httpbis-safe-method-w-body](http://webconcepts.info/specs/IETF/I-D/ietf-httpbis-safe-method-w-body)
  */
 export type HttpMethodQuery = 'QUERY';
 
@@ -379,7 +379,7 @@ export type HttpMethodQuery = 'QUERY';
  * MOVE for the purpose of determining access permissions.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5842#section-6)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/5842)
+ * @see [Specification → RFC 5842](http://webconcepts.info/specs/IETF/RFC/5842)
  */
 export type HttpMethodRebind = 'REBIND';
 
@@ -391,7 +391,7 @@ export type HttpMethodRebind = 'REBIND';
  * body and in the REPORT request headers.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-3.6)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodReport = 'REPORT';
 
@@ -402,7 +402,7 @@ export type HttpMethodReport = 'REPORT';
  * multistatus format.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5323#section-2)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/5323)
+ * @see [Specification → RFC 5323](http://webconcepts.info/specs/IETF/RFC/5323)
  */
 export type HttpMethodSearch = 'SEARCH';
 
@@ -417,7 +417,7 @@ export type HttpMethodSearch = 'SEARCH';
  * of zero (0) in the request.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc7231#section-4.3.8)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/7231)
+ * @see [Specification → RFC 7231](http://webconcepts.info/specs/IETF/RFC/7231)
  */
 export type HttpMethodTrace = 'TRACE';
 
@@ -427,7 +427,7 @@ export type HttpMethodTrace = 'TRACE';
  * segment specified in the UNBIND body.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc5842#section-5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/5842)
+ * @see [Specification → RFC 5842](http://webconcepts.info/specs/IETF/RFC/5842)
  */
 export type HttpMethodUnbind = 'UNBIND';
 
@@ -438,7 +438,7 @@ export type HttpMethodUnbind = 'UNBIND';
  * resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-4.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodUncheckout = 'UNCHECKOUT';
 
@@ -448,7 +448,7 @@ export type HttpMethodUncheckout = 'UNCHECKOUT';
  * effective request URI and other resources.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/draft-snell-link-method#section-4)
- * @see [Specification](http://webconcepts.info/specs/IETF/I-D/snell-link-method)
+ * @see [Specification → Internet Draft snell-link-method](http://webconcepts.info/specs/IETF/I-D/snell-link-method)
  */
 export type HttpMethodUnlink = 'UNLINK';
 
@@ -458,7 +458,7 @@ export type HttpMethodUnlink = 'UNLINK';
  * identify a resource within the scope of the lock.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4918#section-9.11)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4918)
+ * @see [Specification → RFC 4918](http://webconcepts.info/specs/IETF/RFC/4918)
  */
 export type HttpMethodUnlock = 'UNLOCK';
 
@@ -470,7 +470,7 @@ export type HttpMethodUnlock = 'UNLOCK';
  * resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-7.1)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodUpdate = 'UPDATE';
 
@@ -479,7 +479,7 @@ export type HttpMethodUpdate = 'UPDATE';
  * redirect reference resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc4437#section-7)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/4437)
+ * @see [Specification → RFC 4437](http://webconcepts.info/specs/IETF/RFC/4437)
  */
 export type HttpMethodUpdateredirectref = 'UPDATEREDIRECTREF';
 
@@ -490,7 +490,7 @@ export type HttpMethodUpdateredirectref = 'UPDATEREDIRECTREF';
  * resource.
  *
  * @see [Documentation](https://datatracker.ietf.org/doc/html/rfc3253#section-3.5)
- * @see [Specification](http://webconcepts.info/specs/IETF/RFC/3253)
+ * @see [Specification → RFC 3253](http://webconcepts.info/specs/IETF/RFC/3253)
  */
 export type HttpMethodVersionControl = 'VERSION-CONTROL';
 
