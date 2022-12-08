@@ -1,9 +1,9 @@
 import fs from 'fs';
 import {
-	Concept,
-	READ_FILE_PATH,
 	capitalize,
+	Concept,
 	ConceptValue,
+	getDocumentationLabel,
 	getHttpMethodAsCamelCase,
 	isForbiddenHttpRequestHeader,
 	makeCamelCase,
@@ -13,6 +13,7 @@ import {
 	makeStringType,
 	makeType,
 	makeUnionType,
+	READ_FILE_PATH,
 } from '.';
 import wordWrap from 'word-wrap';
 
@@ -55,9 +56,11 @@ function makeFullDocBlock(conceptValue: ConceptValue): string {
 	const specLinks: string[] = [];
 
 	for(const detail of conceptValue.details) {
-		docLinks.push(makeDocSeeTag('Documentation', detail.documentation));
+		const docLabel = getDocumentationLabel(new URL(detail.documentation));
+
+		docLinks.push(makeDocSeeTag(`Documentation${docLabel}`, new URL(detail.documentation)));
 		specLinks.push(makeDocSeeTag(`Specification → ${detail['spec-name']}`,
-			detail.specification));
+			new URL(detail.specification)));
 	}
 
 	const docBlock = makeDocBlock([

@@ -63,12 +63,12 @@ export type ConceptValueDetail = {
 	 * a URI identifying the documentation where the concept
 	 * value is defined for
 	 */
-	documentation: URL,
+	documentation: string,
 	/**
 	 * the identifier of the specification from which the
 	 * definition and documentation have been harvested
 	 */
-	specification: URL,
+	specification: string,
 	/**
 	 * a short human-readable name for the specification that
 	 * can be used when linking to the documentation
