@@ -54,7 +54,9 @@ export type HttpStatusCode102 = 102;
  * headers included in the informational response.
  *
  * @see [Documentation → IETF RFC 8297 §2](https://datatracker.ietf.org/doc/html/rfc8297#section-2)
+ * @see [Documentation](https://html.spec.whatwg.org/multipage/semantics.html#early-hints)
  * @see [Specification → RFC 8297](http://webconcepts.info/specs/IETF/RFC/8297)
+ * @see [Specification → WHATWG HTML Standard](https://html.spec.whatwg.org/)
  */
 export type HttpStatusCode103 = 103;
 

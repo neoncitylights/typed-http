@@ -4630,6 +4630,12 @@
 						"documentation":"https://datatracker.ietf.org/doc/html/rfc8297#section-2",
 						"specification":"http://webconcepts.info/specs/IETF/RFC/8297",
 						"spec-name":"RFC 8297"
+					},
+					{
+						"description":"Early hints allow user-agents to perform some operations, such as to speculatively load resources that are likely to be used by the document, before the navigation request is fully handled by the server and a response code is served. Servers can indicate early hints by serving a response with a 103 status code before serving the final response.",
+						"documentation":"https://html.spec.whatwg.org/multipage/semantics.html#early-hints",
+						"specification":"https://html.spec.whatwg.org/",
+						"spec-name":"WHATWG HTML Standard"
 					}
 				]
 			},
