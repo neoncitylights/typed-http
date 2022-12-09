@@ -1722,6 +1722,19 @@
 				]
 			},
 			{
+				"value":"Downlink",
+				"concept":"http://webconcepts.info/concepts/http-header/",
+				"id":"http://webconcepts.info/concepts/http-header/Downlink",
+				"details":[
+					{
+						"description":"The Downlink request header field is a number that indicates the downlink value at the time when the request is made by the user agent.",
+						"documentation":"https://wicg.github.io/netinfo/#downlink-request-header-field",
+						"specification":"https://wicg.github.io/netinfo/",
+						"spec-name":"WICG Network Information API"
+					}
+				]
+			},
+			{
 				"value":"EDIINT-Features",
 				"concept":"http://webconcepts.info/concepts/http-header/",
 				"id":"http://webconcepts.info/concepts/http-header/EDIINT-Features",
@@ -1770,6 +1783,19 @@
 						"documentation":"https://datatracker.ietf.org/doc/html/rfc8470#section-5.1",
 						"specification":"http://webconcepts.info/specs/IETF/RFC/8470",
 						"spec-name":"RFC 8470"
+					}
+				]
+			},
+			{
+				"value":"ECT",
+				"concept":"http://webconcepts.info/concepts/http-header/",
+				"id":"http://webconcepts.info/concepts/http-header/ECT",
+				"details":[
+					{
+						"description":"The ECT request header field is a number that indicates the effective connection type at the time when the request is made by the user agent.",
+						"documentation":"https://wicg.github.io/netinfo/#ect-request-header-field",
+						"specification":"https://wicg.github.io/netinfo/",
+						"spec-name":"WICG Network Information API"
 					}
 				]
 			},
@@ -2823,6 +2849,19 @@
 						"documentation":"https://datatracker.ietf.org/doc/html/rfc7231#section-7.1.3",
 						"specification":"http://webconcepts.info/specs/IETF/RFC/7231",
 						"spec-name":"RFC 7231"
+					}
+				]
+			},
+			{
+				"value":"RTT",
+				"concept":"http-header",
+				"id":"http://webconcepts.info/concepts/http-header/RTT",
+				"details":[
+					{
+						"description":"The RTT HTTP header field is used to indicate the round-trip time of the request. The RTT is measured in milliseconds, rounded to nearest multiple of 25 milliseconds, and is based on recently observed application-layer RTT measurements across recently active connections, excluding connections made to private address space.",
+						"documentation":"https://wicg.github.io/netinfo/#rtt-request-header-field",
+						"specification":"https://wicg.github.io/netinfo/",
+						"spec-name":"WICG Network Information API"
 					}
 				]
 			},

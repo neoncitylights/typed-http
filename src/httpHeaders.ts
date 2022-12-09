@@ -976,6 +976,16 @@ export type HttpHeaderDeviceMemory = 'Device-Memory';
 export type HttpHeaderDigest = 'Digest';
 
 /**
+ * The Downlink request header field is a number that indicates
+ * the downlink value at the time when the request is made by
+ * the user agent.
+ *
+ * @see [Documentation](https://wicg.github.io/netinfo/#downlink-request-header-field)
+ * @see [Specification → WICG Network Information API](https://wicg.github.io/netinfo/)
+ */
+export type HttpHeaderDownlink = 'Downlink';
+
+/**
  * The EDIINT-Features header field indicates the originating
  * user agent is capable of supporting the features listed.
  *
@@ -1018,6 +1028,16 @@ export type HttpHeaderETag = 'ETag';
  * @see [Specification → RFC 8470](http://webconcepts.info/specs/IETF/RFC/8470)
  */
 export type HttpHeaderEarlyData = 'Early-Data';
+
+/**
+ * The ECT request header field is a number that indicates the
+ * effective connection type at the time when the request is
+ * made by the user agent.
+ *
+ * @see [Documentation](https://wicg.github.io/netinfo/#ect-request-header-field)
+ * @see [Specification → WICG Network Information API](https://wicg.github.io/netinfo/)
+ */
+export type HttpHeaderECT = 'ECT';
 
 /**
  * The "Expect" header field in a request indicates a certain
@@ -1951,6 +1971,19 @@ export type HttpHeaderReprDigest = 'Repr-Digest';
 export type HttpHeaderRetryAfter = 'Retry-After';
 
 /**
+ * The RTT HTTP header field is used to indicate the round-trip
+ * time of the request. The RTT is measured in milliseconds,
+ * rounded to nearest multiple of 25 milliseconds, and is based
+ * on recently observed application-layer RTT measurements
+ * across recently active connections, excluding connections
+ * made to private address space.
+ *
+ * @see [Documentation](https://wicg.github.io/netinfo/#rtt-request-header-field)
+ * @see [Specification → WICG Network Information API](https://wicg.github.io/netinfo/)
+ */
+export type HttpHeaderRTT = 'RTT';
+
+/**
  * The Save-Data request header allows a client to hint to the
  * server about its preferences regarding the use of data for
  * the given request.
@@ -2851,10 +2884,12 @@ export type HttpHeader =
 	| HttpHeaderDestination
 	| HttpHeaderDeviceMemory
 	| HttpHeaderDigest
+	| HttpHeaderDownlink
 	| HttpHeaderEDIINTFeatures
 	| HttpHeaderEPR
 	| HttpHeaderETag
 	| HttpHeaderEarlyData
+	| HttpHeaderECT
 	| HttpHeaderExpect
 	| HttpHeaderExpectCT
 	| HttpHeaderExpires
@@ -2936,6 +2971,7 @@ export type HttpHeader =
 	| HttpHeaderReportTo
 	| HttpHeaderReprDigest
 	| HttpHeaderRetryAfter
+	| HttpHeaderRTT
 	| HttpHeaderSaveData
 	| HttpHeaderSOAPAction
 	| HttpHeaderSafe
