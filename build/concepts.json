@@ -3470,6 +3470,19 @@
 				]
 			},
 			{
+				"value":"Timing-Allow-Origin",
+				"concept":"http://webconcepts.info/concepts/http-header/",
+				"id":"http://webconcepts.info/concepts/http-header/Timing-Allow-Origin",
+				"details":[
+					{
+						"description":" The Timing-Allow-Origin HTTP response header field can be used to communicate a policy indicating origin(s) that are allowed to see values of attributes that would have been zero due to the cross-origin restrictions.",
+						"documentation":"https://www.w3.org/TR/resource-timing/#timing-allow-origin",
+						"specification":"https://www.w3.org/TR/resource-timing/",
+						"spec-name":"W3C TR https://www.w3.org/TR/resource-timing/"
+					}
+				]
+			},
+			{
 				"value":"Title",
 				"concept":"http://webconcepts.info/concepts/http-header/",
 				"id":"http://webconcepts.info/concepts/http-header/Title",

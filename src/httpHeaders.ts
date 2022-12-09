@@ -2500,6 +2500,17 @@ export type HttpHeaderTTL = 'TTL';
 export type HttpHeaderTimeout = 'Timeout';
 
 /**
+ * The Timing-Allow-Origin HTTP response header field can be
+ * used to communicate a policy indicating origin(s) that are
+ * allowed to see values of attributes that would have been
+ * zero due to the cross-origin restrictions.
+ *
+ * @see [Documentation](https://www.w3.org/TR/resource-timing/#timing-allow-origin)
+ * @see [Specification → W3C TR https://www.w3.org/TR/resource-timing/](https://www.w3.org/TR/resource-timing/)
+ */
+export type HttpHeaderTimingAllowOrigin = 'Timing-Allow-Origin';
+
+/**
  * The title of the document. Not part of the document.
  * Isomorphic with the <title> element in HTML.
  *
@@ -3018,6 +3029,7 @@ export type HttpHeader =
 	| HttpHeaderTE
 	| HttpHeaderTTL
 	| HttpHeaderTimeout
+	| HttpHeaderTimingAllowOrigin
 	| HttpHeaderTitle
 	| HttpHeaderTk
 	| HttpHeaderTopic
