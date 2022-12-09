@@ -42,6 +42,7 @@
 		"build": "npm run generateHttpTypes",
 		"build:typedoc": "npx typedoc",
 		"build:typedoc-watch": "npm run build:typedoc -- --watch",
+		"build:watch": "watch 'npm run build' ./build",
 		"build:all": "npm run build && npm run build:typedoc",
 		"clean": "rm -rf ./dist/ ./docs/typedocs/",
 		"deploy": "gh-pages -d ./docs/typedocs",
@@ -68,6 +69,7 @@
 		"typedoc": "0.23.21",
 		"typescript": "4.9.3",
 		"vitest": "^0.25.3",
+		"watch": "^1.0.2",
 		"word-wrap": "^1.2.3"
 	}
 }
