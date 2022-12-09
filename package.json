@@ -1,6 +1,6 @@
 {
 	"name": "@neoncitylights/typed-http",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "Provides strongly typed HTTP header names. Supports the Fetch API, XmlHttpRequest, and the Node.js HTTP module with zero-runtime overhead.",
 	"license": "MIT",
 	"author": {
