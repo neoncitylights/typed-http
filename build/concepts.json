@@ -3327,6 +3327,19 @@
 				]
 			},
 			{
+				"value":"SourceMap",
+				"concept":"http://webconcepts.info/concepts/http-header/",
+				"id":"http://webconcepts.info/concepts/http-header/SourceMap",
+				"details":[
+					{
+						"description":"The SourceMap HTTP response header is used to indicate to the browser where to find the source map for a JavaScript file.",
+						"documentation":"https://sourcemaps.info/spec.html#h.lmz475t4mvbx",
+						"specification":"https://sourcemaps.info/spec.html",
+						"spec-name":"Source Map Revision 3 Proposal"
+					}
+				]
+			},
+			{
 				"value":"Status-URI",
 				"concept":"http://webconcepts.info/concepts/http-header/",
 				"id":"http://webconcepts.info/concepts/http-header/Status-URI",

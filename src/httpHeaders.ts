@@ -2377,6 +2377,16 @@ export type HttpHeaderSignature = 'Signature';
 export type HttpHeaderSlug = 'Slug';
 
 /**
+ * The SourceMap HTTP response header is used to indicate to
+ * the browser where to find the source map for a JavaScript
+ * file.
+ *
+ * @see [Documentation](https://sourcemaps.info/spec.html#h.lmz475t4mvbx)
+ * @see [Specification → Source Map Revision 3 Proposal](https://sourcemaps.info/spec.html)
+ */
+export type HttpHeaderSourceMap = 'SourceMap';
+
+/**
  * The Status-URI response header may be used with the 102
  * (Processing) status code to inform the client as to the
  * status of a method.
@@ -3018,6 +3028,7 @@ export type HttpHeader =
 	| HttpHeaderSetCookie2
 	| HttpHeaderSignature
 	| HttpHeaderSlug
+	| HttpHeaderSourceMap
 	| HttpHeaderStatusURI
 	| HttpHeaderStrictTransportSecurity
 	| HttpHeaderSubOK
