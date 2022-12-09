@@ -2762,6 +2762,19 @@
 				]
 			},
 			{
+				"value":"Referrer-Policy",
+				"concept":"https://webconcepts.info/concepts/http-header/",
+				"id":"https://webconcepts.info/concepts/http-header/Referrer-Policy",
+				"details":[
+					{
+						"description":"The Referrer-Policy header controls how much referrer information (sent via the Referer header) should be included with requests made.",
+						"documentation":"https://www.w3.org/TR/referrer-policy/#referrer-policy-header-dfn",
+						"specification":"https://www.w3.org/TR/referrer-policy/",
+						"spec-name":"W3C TR https://www.w3.org/TR/referrer-policy/"
+					}
+				]
+			},
+			{
 				"value":"Repeatability-Client-ID",
 				"concept":"http://webconcepts.info/concepts/http-header/",
 				"id":"http://webconcepts.info/concepts/http-header/Repeatability-Client-ID",

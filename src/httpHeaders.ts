@@ -1890,6 +1890,16 @@ export type HttpHeaderRedirectRef = 'Redirect-Ref';
 export type HttpHeaderReferer = 'Referer';
 
 /**
+ * The Referrer-Policy header controls how much referrer
+ * information (sent via the Referer header) should be included
+ * with requests made.
+ *
+ * @see [Documentation](https://www.w3.org/TR/referrer-policy/#referrer-policy-header-dfn)
+ * @see [Specification → W3C TR https://www.w3.org/TR/referrer-policy/](https://www.w3.org/TR/referrer-policy/)
+ */
+export type HttpHeaderReferrerPolicy = 'Referrer-Policy';
+
+/**
  * Repeatability-Client-ID is an optional header that MAY be
  * provided by the client. Repeatability-Client-ID is an opaque
  * string representing a client-generated, globally unique for
@@ -2985,6 +2995,7 @@ export type HttpHeader =
 	| HttpHeaderRateLimitReset
 	| HttpHeaderRedirectRef
 	| HttpHeaderReferer
+	| HttpHeaderReferrerPolicy
 	| HttpHeaderRepeatabilityClientID
 	| HttpHeaderRepeatabilityFirstSent
 	| HttpHeaderRepeatabilityRequestID
