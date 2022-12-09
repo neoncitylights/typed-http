@@ -1579,6 +1579,19 @@
 				]
 			},
 			{
+				"value": "Cross-Origin-Resource-Policy",
+				"concept": "http://webconcepts.info/concepts/http-header/",
+				"id": "http://webconcepts.info/concepts/http-header/Cross-Origin-Resource-Policy",
+				"details": [
+					{
+						"description": "The `Cross-Origin-Resource-Policy` response header can be used to require checking a request’s current URL’s origin against a request’s origin when request’s mode is \"no-cors\".",
+						"documentation": "https://fetch.spec.whatwg.org/#http-cross-origin-resource-policy",
+						"specification": "https://fetch.spec.whatwg.org/",
+						"spec-name": "WHATWG Fetch Standard"
+					}
+				]
+			},
+			{
 				"value":"DASL",
 				"concept":"http://webconcepts.info/concepts/http-header/",
 				"id":"http://webconcepts.info/concepts/http-header/DASL",
@@ -3680,6 +3693,19 @@
 						"documentation":"https://datatracker.ietf.org/doc/html/rfc7234#section-5.5",
 						"specification":"http://webconcepts.info/specs/IETF/RFC/7234",
 						"spec-name":"RFC 7234"
+					}
+				]
+			},
+			{
+				"value":"X-Content-Type-Options",
+				"concept":"http://webconcepts.info/concepts/http-header/",
+				"id":"http://webconcepts.info/concepts/http-header/X-Content-Type-Options",
+				"details":[
+					{
+						"description":"The `X-Content-Type-Options` response header can be used to require checking of a response’s `Content-Type` header against the destination of a request. ",
+						"documentation":"https://fetch.spec.whatwg.org/#x-content-type-options-header",
+						"specification":"https://fetch.spec.whatwg.org/",
+						"spec-name":"WHATWG Fetch Standard"
 					}
 				]
 			},

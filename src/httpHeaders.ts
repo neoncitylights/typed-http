@@ -849,6 +849,16 @@ export type HttpHeaderCrossOriginEmbedderPolicy = 'Cross-Origin-Embedder-Policy'
 export type HttpHeaderCrossOriginOpenerPolicy = 'Cross-Origin-Opener-Policy';
 
 /**
+ * The `Cross-Origin-Resource-Policy` response header can be
+ * used to require checking a request’s current URL’s origin
+ * against a request’s origin when request’s mode is "no-cors".
+ *
+ * @see [Documentation](https://fetch.spec.whatwg.org/#http-cross-origin-resource-policy)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
+ */
+export type HttpHeaderCrossOriginResourcePolicy = 'Cross-Origin-Resource-Policy';
+
+/**
  * The DASL response header indicates server support for query
  * grammars in the OPTIONS method. The value is a list of URIs
  * that indicate the types of supported grammars. Note that
@@ -2708,6 +2718,16 @@ export type HttpHeaderWantReprDigest = 'Want-Repr-Digest';
 export type HttpHeaderWarning = 'Warning';
 
 /**
+ * The `X-Content-Type-Options` response header can be used to
+ * require checking of a response’s `Content-Type` header
+ * against the destination of a request.
+ *
+ * @see [Documentation](https://fetch.spec.whatwg.org/#x-content-type-options-header)
+ * @see [Specification → WHATWG Fetch Standard](https://fetch.spec.whatwg.org/)
+ */
+export type HttpHeaderXContentTypeOptions = 'X-Content-Type-Options';
+
+/**
  * The X-Frame-Options HTTP header field indicates a policy
  * that specifies whether the browser should render the
  * transmitted resource within a <frame> or an <iframe>.
@@ -2810,6 +2830,7 @@ export type HttpHeader =
 	| HttpHeaderCookie2
 	| HttpHeaderCrossOriginEmbedderPolicy
 	| HttpHeaderCrossOriginOpenerPolicy
+	| HttpHeaderCrossOriginResourcePolicy
 	| HttpHeaderDASL
 	| HttpHeaderDAV
 	| HttpHeaderDNT
@@ -2971,6 +2992,7 @@ export type HttpHeader =
 	| HttpHeaderWantDigest
 	| HttpHeaderWantReprDigest
 	| HttpHeaderWarning
+	| HttpHeaderXContentTypeOptions
 	| HttpHeaderXFrameOptions
 	| HttpHeaderTraceparent
 	| HttpHeaderTracestate;
