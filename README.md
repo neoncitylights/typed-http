@@ -4,7 +4,7 @@
 [![Node.js workflow](https://github.com/neoncitylights/typed-http/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/typed-http/actions/workflows/main.yml)
 [![npm (scoped)](https://img.shields.io/npm/v/@neoncitylights/typed-http)](https://www.npmjs.com/package/@neoncitylights/typed-http)
 
-A TypeScript package that provides strongly typed HTTP header names. Supports the Fetch API, `XmlHttpRequest`, and the Node.js HTTP module with zero-runtime overhead.
+A pure TypeScript package that provides strongly typed HTTP headers, methods, and status codes. Supports the Fetch API, `XmlHttpRequest`, and the Node.js HTTP module with zero-runtime overhead.
 
 This package uses an open-source JSON dataset by [WebConcepts](https://webconcepts.info/JSON-concepts) with slight modifications, available under [`concepts.json`](./build/concepts.json). The script to auto-generate the TypeScript files is available under [`generateHttpTypes.ts`](./build/generateHttpTypes.ts). The generated files are:
  - [`httpHeaders.ts`](./src/httpHeaders.ts): 248 HTTP header types
