@@ -2060,6 +2060,61 @@ export type HttpHeaderScheduleReply = 'Schedule-Reply';
 export type HttpHeaderScheduleTag = 'Schedule-Tag';
 
 /**
+ * The Sec-CH-Forced-Colors request header field is a
+ * high-entropy client hint gives a server information about
+ * the user's forced color scheme. It is based on the
+ * `forced-colors` CSS media feature.
+ *
+ * @see [Documentation](https://wicg.github.io/user-preference-media-features-headers/#sec-ch-forced-colors)
+ * @see [Specification → WICG User Preference Media Features Headers](https://wicg.github.io/user-preference-media-features-headers/)
+ */
+export type HttpHeaderSecCHForcedColors = 'Sec-CH-Forced-Colors';
+
+/**
+ * The Sec-CH-Prefers-Color-Scheme request header field is a
+ * high-entropy client hint gives a server information about
+ * the user's preference for color scheme. It is based on the
+ * `prefers-color-scheme` CSS media feature.
+ *
+ * @see [Documentation](https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-color-scheme)
+ * @see [Specification → WICG User Preference Media Features Headers](https://wicg.github.io/user-preference-media-features-headers/)
+ */
+export type HttpHeaderSecCHPrefersColorScheme = 'Sec-CH-Prefers-Color-Scheme';
+
+/**
+ * The Sec-CH-Prefers-Contrast request header field is a
+ * high-entropy client hint gives a server information about
+ * the user's preference for color contrast. It is based on the
+ * `prefers-contrast` CSS media feature.
+ *
+ * @see [Documentation](https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-contrast)
+ * @see [Specification → WICG User Preference Media Features Headers](https://wicg.github.io/user-preference-media-features-headers/)
+ */
+export type HttpHeaderSecCHPrefersContrast = 'Sec-CH-Prefers-Contrast';
+
+/**
+ * The Sec-CH-Prefers-Reduced-Data request header field is a
+ * high-entropy client hint gives a server information about
+ * the user's preference for reduced data. It is based on the
+ * `prefers-reduced-data` CSS media feature.
+ *
+ * @see [Documentation](https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-data)
+ * @see [Specification → WICG User Preference Media Features Client Hints Headers](https://wicg.github.io/user-preference-media-features-headers/)
+ */
+export type HttpHeaderSecCHPrefersReducedData = 'Sec-CH-Prefers-Reduced-Data';
+
+/**
+ * The Sec-CH-Prefers-Reduced-Motion request header field is a
+ * high-entropy client hint gives a server information about
+ * the user's preference for reduced motion. It is based on the
+ * `prefers-reduced-motion` CSS media feature.
+ *
+ * @see [Documentation](https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-reduced-motion)
+ * @see [Specification → WICG User Preference Media Features Client Hints Headers](https://wicg.github.io/user-preference-media-features-headers/)
+ */
+export type HttpHeaderSecCHPrefersReducedMotion = 'Sec-CH-Prefers-Reduced-Motion';
+
+/**
  * The Sec-CH-UA-Arch request header field gives a server
  * information about the architecture of the platform on which
  * a given user agent is executing.
@@ -3009,6 +3064,11 @@ export type HttpHeader =
 	| HttpHeaderSafe
 	| HttpHeaderScheduleReply
 	| HttpHeaderScheduleTag
+	| HttpHeaderSecCHForcedColors
+	| HttpHeaderSecCHPrefersColorScheme
+	| HttpHeaderSecCHPrefersContrast
+	| HttpHeaderSecCHPrefersReducedData
+	| HttpHeaderSecCHPrefersReducedMotion
 	| HttpHeaderSecCHUAArch
 	| HttpHeaderSecCHUABitness
 	| HttpHeaderSecCHUAFullVersion
@@ -3099,6 +3159,11 @@ export type ForbiddenHttpRequestHeader =
 	| HttpHeaderProxyInstruction
 	| HttpHeaderProxyStatus
 	| HttpHeaderReferer
+	| HttpHeaderSecCHForcedColors
+	| HttpHeaderSecCHPrefersColorScheme
+	| HttpHeaderSecCHPrefersContrast
+	| HttpHeaderSecCHPrefersReducedData
+	| HttpHeaderSecCHPrefersReducedMotion
 	| HttpHeaderSecCHUAArch
 	| HttpHeaderSecCHUABitness
 	| HttpHeaderSecCHUAFullVersion
