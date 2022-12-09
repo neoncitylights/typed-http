@@ -1951,6 +1951,16 @@ export type HttpHeaderReprDigest = 'Repr-Digest';
 export type HttpHeaderRetryAfter = 'Retry-After';
 
 /**
+ * The Save-Data request header allows a client to hint to the
+ * server about its preferences regarding the use of data for
+ * the given request.
+ *
+ * @see [Documentation](https://wicg.github.io/savedata/#dfn-save-data)
+ * @see [Specification → WICG Save Data API](https://wicg.github.io/savedata/)
+ */
+export type HttpHeaderSaveData = 'Save-Data';
+
+/**
  * The SOAPAction HTTP request header field can be used to
  * indicate the intent of the SOAP HTTP request. The value is a
  * URI identifying the intent. SOAP places no restrictions on
@@ -2926,6 +2936,7 @@ export type HttpHeader =
 	| HttpHeaderReportTo
 	| HttpHeaderReprDigest
 	| HttpHeaderRetryAfter
+	| HttpHeaderSaveData
 	| HttpHeaderSOAPAction
 	| HttpHeaderSafe
 	| HttpHeaderScheduleReply
